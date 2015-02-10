@@ -10,13 +10,17 @@ Guest Visible Links:
 - Home (Show a random prize?)
 - Catalog
 	- Log In To Order
-- Log In/Sign Up
+- Log In
+- Sign Up
 - Information
 
 Organizer Visible Links:
 ------------------------
 - Home (Show dashboard)
 - Catalog
+- Edit Catalog
+	- Add Package
+	- Edit Package
 	- Edit Prize
 	- Add Prize
 	- Remove Prize
@@ -29,7 +33,7 @@ Supporter Visible Links:
 - Order Tickets
 - Pick Packages
 - Log Out
-
+Routs
 Databases:
 ---------
 
