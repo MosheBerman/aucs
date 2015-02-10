@@ -1,4 +1,4 @@
-------------------
+-- ----------------
 --
 --	This SQL file is a seed to set up a database for running a 
 --	so-called "Chinese Auction."
@@ -8,10 +8,12 @@
 --
 --	See the comments above each table for details.
 --	
-------------------
+-- ----------------
 
 -- Create a database
-CREATE DATABASE IF NOT EXISTS AUCS;
+CREATE DATABASE IF NOT EXISTS aucs;
+
+USE aucs;
 
 -- Each record constructs a phone number.
 CREATE TABLE PHONE (
@@ -21,7 +23,7 @@ CREATE TABLE PHONE (
 	digits varchar(10),	-- US Only
 	extension varchar(10),
 	PRIMARY KEY(number_id)
-)
+);
 
 -- Each record constructs an address.
 CREATE TABLE ADDRESS (
@@ -33,7 +35,7 @@ CREATE TABLE ADDRESS (
 	state varchar(2),
 	ZIP varchar(10),
 	PRIMARY KEY(address_id)
-)
+);
 
 -- Users have names, emails, passwords, and references phones and addresses.
 CREATE TABLE USER (
@@ -48,7 +50,7 @@ CREATE TABLE USER (
 	PRIMARY KEY(user_id),
 	FOREIGN KEY(phone_number_id) REFERENCES PHONE(number_id),
 	FOREIGN KEY(address_id) REFERENCES ADDRESS(address_id)
-)
+);
 
 -- Organizers are special admin users.
 CREATE TABLE ORGANIZER (
@@ -56,7 +58,7 @@ CREATE TABLE ORGANIZER (
 	user_id int NOT NULL, 
 	PRIMARY KEY(organizer_id),
 	FOREIGN KEY user_id REFERENCES USER(user_id)
-)
+);
 
 -- A prize package is a collection of prizes that users can "put in for."
 CREATE TABLE PRIZE_PACKAGE (
@@ -64,7 +66,7 @@ CREATE TABLE PRIZE_PACKAGE (
 	package_name varchar(200),
 	package_price_in_dollars(3),
 	PRIMARY KEY(prize_package_id)
-)
+);
 
 -- Prizes live in a prize package.
 CREATE TABLE PRIZE (
@@ -76,7 +78,7 @@ CREATE TABLE PRIZE (
 	PRIMARY KEY(prize_id),
 	FOREIGN KEY sponsor_id REFERENCES SPONSOR(sponsor_id),
 	FOREIGN KEY package_id REFERENCES PRIZE_PACKAGE(prize_package_id)
-)
+);
 
 -- Ticket packages allow the user to buy extra tickets for less money.
 -- For example, give $75 worth of tickets for paying only $50.
@@ -85,7 +87,7 @@ CREATE TABLE TICKET_PACKAGE (
 	actual_amount varchar(3)
 	value_amount varchar(4),
 	PRIMARY KEY(ticket_package_id)
-)
+);
 
 CREATE TABLE SPONSOR (
 	sponsor_id int NOT NULL AUTO_INCREMENT,
@@ -93,7 +95,7 @@ CREATE TABLE SPONSOR (
 	website_url varchar(255),
 	phone_number varchar(10),
 	PRIMARY KEY(sponsor_id)
-)
+);
 
 -- The ORDER table holds orders.
 --
@@ -108,7 +110,7 @@ CREATE TABLE ORDER (
 	PRIMARY KEY(order_id),
 	FOREIGN KEY user_id REFERENCES USER(user_id),
 	FOREIGN KEY ticket_package_id REFERENCES TICKET_PACKAGE(ticket_package_id)
-)
+);
 
 -- Associate the pick with an order.
 CREATE TABLE PACKAGE_PICK (
@@ -119,4 +121,4 @@ CREATE TABLE PACKAGE_PICK (
 	PRIMARY KEY(pick_id)
 	FOREIGN KEY order_id REFERENCES ORDER(order_id),
 	FOREIGN KEY prize_id REFERENCES PRIZE_PACKAGE(prize_package_id)
-)
+);
