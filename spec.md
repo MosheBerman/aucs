@@ -5,6 +5,31 @@ Features:
 • User identification
 • Choose specific prizes
 
+Guest Visible Links:
+--------------------
+- Home (Show a random prize?)
+- Catalog
+	- Log In To Order
+- Log In/Sign Up
+- Information
+
+Organizer Visible Links:
+------------------------
+- Home (Show dashboard)
+- Catalog
+	- Edit Prize
+	- Add Prize
+	- Remove Prize
+- Log Out
+
+Supporter Visible Links:
+------------------------
+- Home (Show a random prize)
+- Catalog
+- Order Tickets
+- Pick Packages
+- Log Out
+
 Databases:
 ---------
 
@@ -37,7 +62,7 @@ ADDRESSES:
 - state
 - ZIP
 
-TICKET_PACKAGES:
+PRIZE_PACKAGES:
 - package_id (primary_key)
 - package_name
 - package_price_in_dollars
@@ -48,6 +73,11 @@ PRIZES:
 - sponsor_id
 - package_id
 
+TICKET_PACKAGE:
+- package_id (primary_key)
+- actual_amount
+_ value_amount
+
 SPONSOR:
 - sponsor_id (primary_key)
 - sponsor_name
@@ -57,12 +87,8 @@ SPONSOR:
 ORDER: 
 - order_id (primary_key)
 - created_at
-
-#  Associates users with orders
-USER_ORDERS:
-- user_order_id (primary_key)
-- user_id 
-- order_id
+- user_id
+- ticket_package
 
 #  Associates packages with orders
 PACKAGES_IN_ORDER:
