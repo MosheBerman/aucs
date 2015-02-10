@@ -1,23 +1,14 @@
-CREATE TABLE ORGANIZER (
-	organizer_id int NOT NULL AUTO_INCREMENT,
-	user_id int NOT NULL, 
-	PRIMARY KEY(organizer_id)
-)
-
--- Users have names, emails, passwords, and references phones and addresses.
-CREATE TABLE USER (
-	user_id int NOT NULL AUTO_INCREMENT,
-	created datetime default CURRENT_TIMESTAMP,
-	email_address varchar(255),
-	first_name varchar(255),
-	last_name varchar(255),
-	token_or_password varchar(255),
-	phone_number_id int,
-	address_id int,
-	PRIMARY KEY(user_id),
-	FOREIGN KEY(phone_number_id) REFERENCES PHONE(number_id),
-	FOREIGN KEY(address_id) REFERENCES ADDRESS(address_id)
-)
+------------------
+--
+--	This SQL file is a seed to set up a database for running a 
+--	so-called "Chinese Auction."
+--
+--	Supporters buy tickets packages and then can put tickets into
+--	prize packages for the auction.
+--
+--	See the comments above each table for details.
+--	
+------------------
 
 -- Each record constructs a phone number.
 CREATE TABLE PHONE (
@@ -39,6 +30,29 @@ CREATE TABLE ADDRESS (
 	state varchar(2),
 	ZIP varchar(10),
 	PRIMARY KEY(address_id)
+)
+
+-- Users have names, emails, passwords, and references phones and addresses.
+CREATE TABLE USER (
+	user_id int NOT NULL AUTO_INCREMENT,
+	created datetime default CURRENT_TIMESTAMP,
+	email_address varchar(255),
+	first_name varchar(255),
+	last_name varchar(255),
+	token_or_password varchar(255),
+	phone_number_id int,
+	address_id int,
+	PRIMARY KEY(user_id),
+	FOREIGN KEY(phone_number_id) REFERENCES PHONE(number_id),
+	FOREIGN KEY(address_id) REFERENCES ADDRESS(address_id)
+)
+
+-- Organizers are special admin users.
+CREATE TABLE ORGANIZER (
+	organizer_id int NOT NULL AUTO_INCREMENT,
+	user_id int NOT NULL, 
+	PRIMARY KEY(organizer_id),
+	FOREIGN KEY user_id REFERENCES USER(user_id)
 )
 
 -- A prize package is a collection of prizes that users can "put in for."
