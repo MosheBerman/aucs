@@ -40,7 +40,7 @@ CREATE TABLE IF NOT EXISTS ADDRESS (
 -- Users have names, emails, passwords, and references phones and addresses.
 CREATE TABLE IF NOT EXISTS USER (
 	user_id int NOT NULL AUTO_INCREMENT,
-	created datetime default CURRENT_TIMESTAMP,
+	created timestamp default CURRENT_TIMESTAMP,
 	email_address varchar(255),
 	first_name varchar(255),
 	last_name varchar(255),
@@ -105,7 +105,7 @@ CREATE TABLE IF NOT EXISTS TICKET_PACKAGE (
 
 CREATE TABLE IF NOT EXISTS USER_ORDER (
 	order_id int NOT NULL AUTO_INCREMENT,
-	created datetime default CURRENT_TIMESTAMP,
+	created timestamp default CURRENT_TIMESTAMP,
 	user_id int,
 	ticket_package_id int,
 	PRIMARY KEY(order_id),
