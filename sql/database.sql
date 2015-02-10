@@ -10,6 +10,9 @@
 --	
 ------------------
 
+-- Create a database
+CREATE DATABASE IF NOT EXISTS AUCS;
+
 -- Each record constructs a phone number.
 CREATE TABLE PHONE (
 	number_id int NOT NULL AUTO_INCREMENT,
