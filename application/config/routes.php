@@ -41,6 +41,11 @@
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
 
+/**
+ *	Users routes
+ */
+$route['users/edit/:num'] = 'edit/edit_user';
+
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
