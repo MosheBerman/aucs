@@ -94,7 +94,7 @@ CREATE TABLE IF NOT EXISTS PRIZE (
 CREATE TABLE IF NOT EXISTS TICKET_PACKAGE (
 	ticket_package_id int NOT NULL AUTO_INCREMENT,
 	actual_amount varchar(3),
-	value_amount varchar(4),
+	awarded_amount varchar(4),
 	PRIMARY KEY(ticket_package_id)
 );
 
