@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
-<div class="menu">
+<div id="menu">
     <ul>
         <li>
             <a href="./">Home</a>
@@ -10,7 +10,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <a href="./prizes">Prizes</a>
         </li>
         <li>
-            <a href="./tickets">tickets</a>
+            <a href="./tickets">Tickets</a>
         </li>
         <li>
             <a href="./log_in">Log In</a>

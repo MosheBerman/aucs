@@ -64,6 +64,45 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             border: 1px solid #D0D0D0;
             box-shadow: 0 0 8px #D0D0D0;
         }
+
+        #menu {
+            min-height: 44px;
+            max-height: 88px;
+            background-color: #292929;
+            color: #fff;
+            clear: both;
+        }
+
+        #menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        #menu ul li {
+            display: block;
+            float: left;
+            width: 100px;
+            height: 44px;
+            vertical-align: middle;
+            line-height: 44px;
+            text-align: center;
+        }
+
+        #menu ul li a {
+            display: block;
+            float: left;
+            color: #cecece;
+            text-decoration: none;
+            height: 44px;
+            width: 100px;
+            padding: 0;
+            margin: 0;
+        }
+
+        #menu ul li a:hover {
+            color: #fff;
+        }
     </style>
 </head>
 <body>
