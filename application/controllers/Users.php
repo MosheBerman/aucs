@@ -9,11 +9,39 @@ class Users extends CI_Controller{
     }
 
     /**
+     * TODO: Create a new user.
+     */
+
+    public function new_user()
+    {
+        
+    }
+
+    /**
+     *  TODO: Allow the user to edit their profile. 
+     */
+
+    public function edit()
+    {
+
+    }
+    
+    /**
      *  TODO: Log the user in and update the session?
      */
 
-    public function log_in(){
+    public function log_in()
+    {
 
     }
+    
+    /**
+     * TODO: Log the user out and clear the session.
+     */
 
+    public function log_out()
+    {
+        
+    }
+    
 }
