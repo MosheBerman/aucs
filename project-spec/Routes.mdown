@@ -19,8 +19,8 @@ user/log-out		// Log user out.
 **CATALOG:**
 
 `````
-catalog/all
-catalog/package/{package_id}
+catalog/all						//	Show all prize packages
+catalog/package/{package_id}	//	Show the prize package for the given ID.
 `````
 
 **TICKET PACKAGES:**
