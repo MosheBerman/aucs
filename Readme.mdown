@@ -1,0 +1,6 @@
+aucs
+----
+
+Aucs is a 'chinese auction' website based on CodeIgniter.
+
+`More details coming soon.`
