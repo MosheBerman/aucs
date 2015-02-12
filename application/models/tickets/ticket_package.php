@@ -30,7 +30,12 @@ class Ticket_package extends CI_Model {
 	}
 
 	function update() {
-		
+
+		$this->actual_amount = $this->input->post('actual_amount');
+		$this->awarded_amount = $this->input->post('awarded_amount');
+		$this->ticket_package_id = $this->input->post('ticket_package_id');
+
+		$this->db->update('TICKET_PACKAGE', $this);
 	}
 }
 

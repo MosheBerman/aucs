@@ -17,7 +17,7 @@ class Welcome extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
-	
+
 	public function index()
 	{
 		$this->load->view('welcome_message');
@@ -26,13 +26,13 @@ class Welcome extends CI_Controller {
 	public function ticket_packages()
 	{
 
-		//	Grab the ticket packages.
 
-		$load = $this->load->model('tickets/ticket_package');
 
-		// var_dump($load);
+		$this->load->model('tickets/ticket_package');
 
 		$data['queries'] = $this->ticket_package->get_ticket_packages();
+		
+		$this->load->view('global_header.php');
 		$this->load->view('ticket_packages.php', $data);
 
 	}

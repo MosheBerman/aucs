@@ -2064,3 +2064,595 @@ DEBUG - 2015-02-12 16:03:34 --> Model Class Initialized
 DEBUG - 2015-02-12 16:03:34 --> File loaded: application/views/ticket_packages.php
 DEBUG - 2015-02-12 16:03:34 --> Final output sent to browser
 DEBUG - 2015-02-12 16:03:34 --> Total execution time: 0.0362
+DEBUG - 2015-02-12 16:15:20 --> Config Class Initialized
+DEBUG - 2015-02-12 16:15:20 --> Hooks Class Initialized
+DEBUG - 2015-02-12 16:15:20 --> Utf8 Class Initialized
+DEBUG - 2015-02-12 16:15:20 --> UTF-8 Support Enabled
+DEBUG - 2015-02-12 16:15:20 --> URI Class Initialized
+DEBUG - 2015-02-12 16:15:20 --> Router Class Initialized
+DEBUG - 2015-02-12 16:15:20 --> No URI present. Default controller set.
+DEBUG - 2015-02-12 16:15:20 --> Output Class Initialized
+DEBUG - 2015-02-12 16:15:20 --> Security Class Initialized
+DEBUG - 2015-02-12 16:15:20 --> Input Class Initialized
+DEBUG - 2015-02-12 16:15:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-02-12 16:15:20 --> Language Class Initialized
+DEBUG - 2015-02-12 16:15:20 --> Loader Class Initialized
+DEBUG - 2015-02-12 16:15:20 --> Database Driver Class Initialized
+ERROR - 2015-02-12 16:15:20 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/moshe/code/web/aucs/system/database/drivers/mysql/mysql_driver.php 74
+DEBUG - 2015-02-12 16:15:20 --> Controller Class Initialized
+DEBUG - 2015-02-12 16:15:20 --> Model Class Initialized
+DEBUG - 2015-02-12 16:15:20 --> Model Class Initialized
+DEBUG - 2015-02-12 16:15:20 --> File loaded: application/views/ticket_packages.php
+DEBUG - 2015-02-12 16:15:20 --> Final output sent to browser
+DEBUG - 2015-02-12 16:15:20 --> Total execution time: 0.0436
+DEBUG - 2015-02-12 16:19:01 --> Config Class Initialized
+DEBUG - 2015-02-12 16:19:01 --> Hooks Class Initialized
+DEBUG - 2015-02-12 16:19:01 --> Utf8 Class Initialized
+DEBUG - 2015-02-12 16:19:01 --> UTF-8 Support Enabled
+DEBUG - 2015-02-12 16:19:01 --> URI Class Initialized
+DEBUG - 2015-02-12 16:19:01 --> Router Class Initialized
+DEBUG - 2015-02-12 16:19:01 --> No URI present. Default controller set.
+DEBUG - 2015-02-12 16:19:01 --> Output Class Initialized
+DEBUG - 2015-02-12 16:19:01 --> Security Class Initialized
+DEBUG - 2015-02-12 16:19:01 --> Input Class Initialized
+DEBUG - 2015-02-12 16:19:01 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-02-12 16:19:01 --> Language Class Initialized
+DEBUG - 2015-02-12 16:19:01 --> Loader Class Initialized
+DEBUG - 2015-02-12 16:19:01 --> Database Driver Class Initialized
+ERROR - 2015-02-12 16:19:01 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/moshe/code/web/aucs/system/database/drivers/mysql/mysql_driver.php 74
+DEBUG - 2015-02-12 16:19:01 --> Controller Class Initialized
+DEBUG - 2015-02-12 16:19:01 --> Model Class Initialized
+DEBUG - 2015-02-12 16:19:01 --> Model Class Initialized
+DEBUG - 2015-02-12 16:19:01 --> File loaded: application/views/ticket_packages.php
+DEBUG - 2015-02-12 16:19:01 --> Final output sent to browser
+DEBUG - 2015-02-12 16:19:01 --> Total execution time: 0.0362
+DEBUG - 2015-02-12 16:20:36 --> Config Class Initialized
+DEBUG - 2015-02-12 16:20:36 --> Hooks Class Initialized
+DEBUG - 2015-02-12 16:20:36 --> Utf8 Class Initialized
+DEBUG - 2015-02-12 16:20:36 --> UTF-8 Support Enabled
+DEBUG - 2015-02-12 16:20:36 --> URI Class Initialized
+DEBUG - 2015-02-12 16:20:36 --> Router Class Initialized
+DEBUG - 2015-02-12 16:20:36 --> No URI present. Default controller set.
+DEBUG - 2015-02-12 16:20:36 --> Output Class Initialized
+DEBUG - 2015-02-12 16:20:36 --> Security Class Initialized
+DEBUG - 2015-02-12 16:20:36 --> Input Class Initialized
+DEBUG - 2015-02-12 16:20:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-02-12 16:20:36 --> Language Class Initialized
+DEBUG - 2015-02-12 16:20:36 --> Loader Class Initialized
+DEBUG - 2015-02-12 16:20:36 --> Database Driver Class Initialized
+ERROR - 2015-02-12 16:20:36 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/moshe/code/web/aucs/system/database/drivers/mysql/mysql_driver.php 74
+DEBUG - 2015-02-12 16:20:36 --> Controller Class Initialized
+DEBUG - 2015-02-12 16:20:36 --> Model Class Initialized
+DEBUG - 2015-02-12 16:20:36 --> Model Class Initialized
+DEBUG - 2015-02-12 16:20:36 --> File loaded: application/views/ticket_packages.php
+DEBUG - 2015-02-12 16:20:36 --> Final output sent to browser
+DEBUG - 2015-02-12 16:20:36 --> Total execution time: 0.0377
+DEBUG - 2015-02-12 16:20:52 --> Config Class Initialized
+DEBUG - 2015-02-12 16:20:52 --> Hooks Class Initialized
+DEBUG - 2015-02-12 16:20:52 --> Utf8 Class Initialized
+DEBUG - 2015-02-12 16:20:52 --> UTF-8 Support Enabled
+DEBUG - 2015-02-12 16:20:52 --> URI Class Initialized
+DEBUG - 2015-02-12 16:20:52 --> Router Class Initialized
+DEBUG - 2015-02-12 16:20:52 --> No URI present. Default controller set.
+DEBUG - 2015-02-12 16:20:52 --> Output Class Initialized
+DEBUG - 2015-02-12 16:20:52 --> Security Class Initialized
+DEBUG - 2015-02-12 16:20:52 --> Input Class Initialized
+DEBUG - 2015-02-12 16:20:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-02-12 16:20:52 --> Language Class Initialized
+DEBUG - 2015-02-12 16:20:52 --> Loader Class Initialized
+DEBUG - 2015-02-12 16:20:52 --> Database Driver Class Initialized
+ERROR - 2015-02-12 16:20:52 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/moshe/code/web/aucs/system/database/drivers/mysql/mysql_driver.php 74
+DEBUG - 2015-02-12 16:20:52 --> Controller Class Initialized
+DEBUG - 2015-02-12 16:20:52 --> Model Class Initialized
+DEBUG - 2015-02-12 16:20:52 --> Model Class Initialized
+DEBUG - 2015-02-12 16:20:52 --> File loaded: application/views/ticket_packages.php
+DEBUG - 2015-02-12 16:20:52 --> Final output sent to browser
+DEBUG - 2015-02-12 16:20:52 --> Total execution time: 0.0382
+DEBUG - 2015-02-12 16:21:26 --> Config Class Initialized
+DEBUG - 2015-02-12 16:21:26 --> Hooks Class Initialized
+DEBUG - 2015-02-12 16:21:26 --> Utf8 Class Initialized
+DEBUG - 2015-02-12 16:21:26 --> UTF-8 Support Enabled
+DEBUG - 2015-02-12 16:21:26 --> URI Class Initialized
+DEBUG - 2015-02-12 16:21:26 --> Router Class Initialized
+DEBUG - 2015-02-12 16:21:26 --> No URI present. Default controller set.
+DEBUG - 2015-02-12 16:21:26 --> Output Class Initialized
+DEBUG - 2015-02-12 16:21:26 --> Security Class Initialized
+DEBUG - 2015-02-12 16:21:26 --> Input Class Initialized
+DEBUG - 2015-02-12 16:21:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-02-12 16:21:26 --> Language Class Initialized
+DEBUG - 2015-02-12 16:21:26 --> Loader Class Initialized
+DEBUG - 2015-02-12 16:21:26 --> Database Driver Class Initialized
+ERROR - 2015-02-12 16:21:26 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/moshe/code/web/aucs/system/database/drivers/mysql/mysql_driver.php 74
+DEBUG - 2015-02-12 16:21:26 --> Controller Class Initialized
+DEBUG - 2015-02-12 16:21:26 --> Model Class Initialized
+DEBUG - 2015-02-12 16:21:26 --> Model Class Initialized
+DEBUG - 2015-02-12 16:21:26 --> File loaded: application/views/global_header.php
+DEBUG - 2015-02-12 16:21:26 --> File loaded: application/views/ticket_packages.php
+DEBUG - 2015-02-12 16:21:26 --> Final output sent to browser
+DEBUG - 2015-02-12 16:21:26 --> Total execution time: 0.0377
+DEBUG - 2015-02-12 16:25:58 --> Config Class Initialized
+DEBUG - 2015-02-12 16:25:58 --> Hooks Class Initialized
+DEBUG - 2015-02-12 16:25:58 --> Utf8 Class Initialized
+DEBUG - 2015-02-12 16:25:58 --> UTF-8 Support Enabled
+DEBUG - 2015-02-12 16:25:58 --> URI Class Initialized
+DEBUG - 2015-02-12 16:25:58 --> Router Class Initialized
+DEBUG - 2015-02-12 16:25:58 --> No URI present. Default controller set.
+DEBUG - 2015-02-12 16:25:58 --> Output Class Initialized
+DEBUG - 2015-02-12 16:25:58 --> Security Class Initialized
+DEBUG - 2015-02-12 16:25:58 --> Input Class Initialized
+DEBUG - 2015-02-12 16:25:58 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-02-12 16:25:58 --> Language Class Initialized
+DEBUG - 2015-02-12 16:25:58 --> Loader Class Initialized
+DEBUG - 2015-02-12 16:25:58 --> Database Driver Class Initialized
+ERROR - 2015-02-12 16:25:58 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/moshe/code/web/aucs/system/database/drivers/mysql/mysql_driver.php 74
+DEBUG - 2015-02-12 16:25:58 --> Controller Class Initialized
+DEBUG - 2015-02-12 16:25:58 --> Model Class Initialized
+DEBUG - 2015-02-12 16:25:58 --> Model Class Initialized
+DEBUG - 2015-02-12 16:25:58 --> File loaded: application/views/global_header.php
+DEBUG - 2015-02-12 16:25:58 --> File loaded: application/views/ticket_packages.php
+DEBUG - 2015-02-12 16:25:58 --> Final output sent to browser
+DEBUG - 2015-02-12 16:25:58 --> Total execution time: 0.0357
+DEBUG - 2015-02-12 16:27:35 --> Config Class Initialized
+DEBUG - 2015-02-12 16:27:35 --> Hooks Class Initialized
+DEBUG - 2015-02-12 16:27:35 --> Utf8 Class Initialized
+DEBUG - 2015-02-12 16:27:35 --> UTF-8 Support Enabled
+DEBUG - 2015-02-12 16:27:35 --> URI Class Initialized
+DEBUG - 2015-02-12 16:27:35 --> Router Class Initialized
+DEBUG - 2015-02-12 16:27:35 --> No URI present. Default controller set.
+DEBUG - 2015-02-12 16:27:35 --> Output Class Initialized
+DEBUG - 2015-02-12 16:27:35 --> Security Class Initialized
+DEBUG - 2015-02-12 16:27:35 --> Input Class Initialized
+DEBUG - 2015-02-12 16:27:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-02-12 16:27:35 --> Language Class Initialized
+DEBUG - 2015-02-12 16:27:35 --> Loader Class Initialized
+DEBUG - 2015-02-12 16:27:35 --> Database Driver Class Initialized
+ERROR - 2015-02-12 16:27:35 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/moshe/code/web/aucs/system/database/drivers/mysql/mysql_driver.php 74
+DEBUG - 2015-02-12 16:27:35 --> Controller Class Initialized
+DEBUG - 2015-02-12 16:27:35 --> Model Class Initialized
+DEBUG - 2015-02-12 16:27:35 --> Model Class Initialized
+DEBUG - 2015-02-12 16:27:35 --> File loaded: application/views/global_header.php
+DEBUG - 2015-02-12 16:27:35 --> File loaded: application/views/ticket_packages.php
+DEBUG - 2015-02-12 16:27:35 --> Final output sent to browser
+DEBUG - 2015-02-12 16:27:35 --> Total execution time: 0.0434
+DEBUG - 2015-02-12 16:27:55 --> Config Class Initialized
+DEBUG - 2015-02-12 16:27:55 --> Hooks Class Initialized
+DEBUG - 2015-02-12 16:27:55 --> Utf8 Class Initialized
+DEBUG - 2015-02-12 16:27:55 --> UTF-8 Support Enabled
+DEBUG - 2015-02-12 16:27:55 --> URI Class Initialized
+DEBUG - 2015-02-12 16:27:55 --> Router Class Initialized
+DEBUG - 2015-02-12 16:27:55 --> No URI present. Default controller set.
+DEBUG - 2015-02-12 16:27:55 --> Output Class Initialized
+DEBUG - 2015-02-12 16:27:55 --> Security Class Initialized
+DEBUG - 2015-02-12 16:27:55 --> Input Class Initialized
+DEBUG - 2015-02-12 16:27:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-02-12 16:27:55 --> Language Class Initialized
+DEBUG - 2015-02-12 16:27:55 --> Loader Class Initialized
+DEBUG - 2015-02-12 16:27:55 --> Database Driver Class Initialized
+ERROR - 2015-02-12 16:27:55 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/moshe/code/web/aucs/system/database/drivers/mysql/mysql_driver.php 74
+DEBUG - 2015-02-12 16:27:55 --> Controller Class Initialized
+DEBUG - 2015-02-12 16:27:55 --> Model Class Initialized
+DEBUG - 2015-02-12 16:27:55 --> Model Class Initialized
+DEBUG - 2015-02-12 16:27:55 --> File loaded: application/views/global_header.php
+DEBUG - 2015-02-12 16:27:55 --> File loaded: application/views/ticket_packages.php
+DEBUG - 2015-02-12 16:27:55 --> Final output sent to browser
+DEBUG - 2015-02-12 16:27:55 --> Total execution time: 0.0334
+DEBUG - 2015-02-12 16:28:02 --> Config Class Initialized
+DEBUG - 2015-02-12 16:28:02 --> Hooks Class Initialized
+DEBUG - 2015-02-12 16:28:02 --> Utf8 Class Initialized
+DEBUG - 2015-02-12 16:28:02 --> UTF-8 Support Enabled
+DEBUG - 2015-02-12 16:28:02 --> URI Class Initialized
+DEBUG - 2015-02-12 16:28:02 --> Router Class Initialized
+DEBUG - 2015-02-12 16:28:02 --> No URI present. Default controller set.
+DEBUG - 2015-02-12 16:28:02 --> Output Class Initialized
+DEBUG - 2015-02-12 16:28:02 --> Security Class Initialized
+DEBUG - 2015-02-12 16:28:02 --> Input Class Initialized
+DEBUG - 2015-02-12 16:28:02 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-02-12 16:28:02 --> Language Class Initialized
+DEBUG - 2015-02-12 16:28:02 --> Loader Class Initialized
+DEBUG - 2015-02-12 16:28:02 --> Database Driver Class Initialized
+ERROR - 2015-02-12 16:28:02 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/moshe/code/web/aucs/system/database/drivers/mysql/mysql_driver.php 74
+DEBUG - 2015-02-12 16:28:02 --> Controller Class Initialized
+DEBUG - 2015-02-12 16:28:02 --> Model Class Initialized
+DEBUG - 2015-02-12 16:28:02 --> Model Class Initialized
+DEBUG - 2015-02-12 16:28:02 --> File loaded: application/views/global_header.php
+DEBUG - 2015-02-12 16:28:02 --> File loaded: application/views/ticket_packages.php
+DEBUG - 2015-02-12 16:28:02 --> Final output sent to browser
+DEBUG - 2015-02-12 16:28:02 --> Total execution time: 0.0366
+DEBUG - 2015-02-12 16:28:07 --> Config Class Initialized
+DEBUG - 2015-02-12 16:28:07 --> Hooks Class Initialized
+DEBUG - 2015-02-12 16:28:07 --> Utf8 Class Initialized
+DEBUG - 2015-02-12 16:28:07 --> UTF-8 Support Enabled
+DEBUG - 2015-02-12 16:28:07 --> URI Class Initialized
+DEBUG - 2015-02-12 16:28:07 --> Router Class Initialized
+DEBUG - 2015-02-12 16:28:07 --> No URI present. Default controller set.
+DEBUG - 2015-02-12 16:28:07 --> Output Class Initialized
+DEBUG - 2015-02-12 16:28:07 --> Security Class Initialized
+DEBUG - 2015-02-12 16:28:07 --> Input Class Initialized
+DEBUG - 2015-02-12 16:28:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-02-12 16:28:07 --> Language Class Initialized
+DEBUG - 2015-02-12 16:28:07 --> Loader Class Initialized
+DEBUG - 2015-02-12 16:28:07 --> Database Driver Class Initialized
+ERROR - 2015-02-12 16:28:07 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/moshe/code/web/aucs/system/database/drivers/mysql/mysql_driver.php 74
+DEBUG - 2015-02-12 16:28:07 --> Controller Class Initialized
+DEBUG - 2015-02-12 16:28:07 --> Model Class Initialized
+DEBUG - 2015-02-12 16:28:07 --> Model Class Initialized
+DEBUG - 2015-02-12 16:28:07 --> File loaded: application/views/global_header.php
+DEBUG - 2015-02-12 16:28:07 --> File loaded: application/views/ticket_packages.php
+DEBUG - 2015-02-12 16:28:07 --> Final output sent to browser
+DEBUG - 2015-02-12 16:28:07 --> Total execution time: 0.0372
+DEBUG - 2015-02-12 16:28:11 --> Config Class Initialized
+DEBUG - 2015-02-12 16:28:11 --> Hooks Class Initialized
+DEBUG - 2015-02-12 16:28:11 --> Utf8 Class Initialized
+DEBUG - 2015-02-12 16:28:11 --> UTF-8 Support Enabled
+DEBUG - 2015-02-12 16:28:11 --> URI Class Initialized
+DEBUG - 2015-02-12 16:28:11 --> Router Class Initialized
+DEBUG - 2015-02-12 16:28:11 --> No URI present. Default controller set.
+DEBUG - 2015-02-12 16:28:11 --> Output Class Initialized
+DEBUG - 2015-02-12 16:28:11 --> Security Class Initialized
+DEBUG - 2015-02-12 16:28:11 --> Input Class Initialized
+DEBUG - 2015-02-12 16:28:11 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-02-12 16:28:11 --> Language Class Initialized
+DEBUG - 2015-02-12 16:28:11 --> Loader Class Initialized
+DEBUG - 2015-02-12 16:28:11 --> Database Driver Class Initialized
+ERROR - 2015-02-12 16:28:11 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/moshe/code/web/aucs/system/database/drivers/mysql/mysql_driver.php 74
+DEBUG - 2015-02-12 16:28:11 --> Controller Class Initialized
+DEBUG - 2015-02-12 16:28:11 --> Model Class Initialized
+DEBUG - 2015-02-12 16:28:11 --> Model Class Initialized
+DEBUG - 2015-02-12 16:28:11 --> File loaded: application/views/global_header.php
+DEBUG - 2015-02-12 16:28:11 --> File loaded: application/views/ticket_packages.php
+DEBUG - 2015-02-12 16:28:11 --> Final output sent to browser
+DEBUG - 2015-02-12 16:28:11 --> Total execution time: 0.0414
+DEBUG - 2015-02-12 16:29:00 --> Config Class Initialized
+DEBUG - 2015-02-12 16:29:00 --> Hooks Class Initialized
+DEBUG - 2015-02-12 16:29:00 --> Utf8 Class Initialized
+DEBUG - 2015-02-12 16:29:00 --> UTF-8 Support Enabled
+DEBUG - 2015-02-12 16:29:00 --> URI Class Initialized
+DEBUG - 2015-02-12 16:29:00 --> Router Class Initialized
+DEBUG - 2015-02-12 16:29:00 --> No URI present. Default controller set.
+DEBUG - 2015-02-12 16:29:00 --> Output Class Initialized
+DEBUG - 2015-02-12 16:29:00 --> Security Class Initialized
+DEBUG - 2015-02-12 16:29:00 --> Input Class Initialized
+DEBUG - 2015-02-12 16:29:00 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-02-12 16:29:00 --> Language Class Initialized
+DEBUG - 2015-02-12 16:29:00 --> Loader Class Initialized
+DEBUG - 2015-02-12 16:29:00 --> Database Driver Class Initialized
+ERROR - 2015-02-12 16:29:00 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/moshe/code/web/aucs/system/database/drivers/mysql/mysql_driver.php 74
+DEBUG - 2015-02-12 16:29:00 --> Controller Class Initialized
+DEBUG - 2015-02-12 16:29:00 --> Model Class Initialized
+DEBUG - 2015-02-12 16:29:00 --> Model Class Initialized
+DEBUG - 2015-02-12 16:29:00 --> File loaded: application/views/global_header.php
+DEBUG - 2015-02-12 16:29:00 --> File loaded: application/views/ticket_packages.php
+DEBUG - 2015-02-12 16:29:00 --> Final output sent to browser
+DEBUG - 2015-02-12 16:29:00 --> Total execution time: 0.0411
+DEBUG - 2015-02-12 16:29:25 --> Config Class Initialized
+DEBUG - 2015-02-12 16:29:25 --> Hooks Class Initialized
+DEBUG - 2015-02-12 16:29:25 --> Utf8 Class Initialized
+DEBUG - 2015-02-12 16:29:25 --> UTF-8 Support Enabled
+DEBUG - 2015-02-12 16:29:25 --> URI Class Initialized
+DEBUG - 2015-02-12 16:29:25 --> Router Class Initialized
+DEBUG - 2015-02-12 16:29:25 --> No URI present. Default controller set.
+DEBUG - 2015-02-12 16:29:25 --> Output Class Initialized
+DEBUG - 2015-02-12 16:29:25 --> Security Class Initialized
+DEBUG - 2015-02-12 16:29:25 --> Input Class Initialized
+DEBUG - 2015-02-12 16:29:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-02-12 16:29:25 --> Language Class Initialized
+DEBUG - 2015-02-12 16:29:25 --> Loader Class Initialized
+DEBUG - 2015-02-12 16:29:25 --> Database Driver Class Initialized
+ERROR - 2015-02-12 16:29:25 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/moshe/code/web/aucs/system/database/drivers/mysql/mysql_driver.php 74
+DEBUG - 2015-02-12 16:29:25 --> Controller Class Initialized
+DEBUG - 2015-02-12 16:29:25 --> Model Class Initialized
+DEBUG - 2015-02-12 16:29:25 --> Model Class Initialized
+DEBUG - 2015-02-12 16:29:25 --> File loaded: application/views/global_header.php
+DEBUG - 2015-02-12 16:29:25 --> File loaded: application/views/ticket_packages.php
+DEBUG - 2015-02-12 16:29:25 --> Final output sent to browser
+DEBUG - 2015-02-12 16:29:25 --> Total execution time: 0.0375
+DEBUG - 2015-02-12 16:29:25 --> Config Class Initialized
+DEBUG - 2015-02-12 16:29:25 --> Hooks Class Initialized
+DEBUG - 2015-02-12 16:29:25 --> Utf8 Class Initialized
+DEBUG - 2015-02-12 16:29:25 --> UTF-8 Support Enabled
+DEBUG - 2015-02-12 16:29:25 --> URI Class Initialized
+DEBUG - 2015-02-12 16:29:25 --> Router Class Initialized
+DEBUG - 2015-02-12 16:29:25 --> No URI present. Default controller set.
+DEBUG - 2015-02-12 16:29:25 --> Output Class Initialized
+DEBUG - 2015-02-12 16:29:25 --> Security Class Initialized
+DEBUG - 2015-02-12 16:29:25 --> Input Class Initialized
+DEBUG - 2015-02-12 16:29:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-02-12 16:29:25 --> Language Class Initialized
+DEBUG - 2015-02-12 16:29:25 --> Loader Class Initialized
+DEBUG - 2015-02-12 16:29:25 --> Database Driver Class Initialized
+ERROR - 2015-02-12 16:29:25 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/moshe/code/web/aucs/system/database/drivers/mysql/mysql_driver.php 74
+DEBUG - 2015-02-12 16:29:25 --> Controller Class Initialized
+DEBUG - 2015-02-12 16:29:25 --> Model Class Initialized
+DEBUG - 2015-02-12 16:29:25 --> Model Class Initialized
+DEBUG - 2015-02-12 16:29:25 --> File loaded: application/views/global_header.php
+DEBUG - 2015-02-12 16:29:25 --> File loaded: application/views/ticket_packages.php
+DEBUG - 2015-02-12 16:29:25 --> Final output sent to browser
+DEBUG - 2015-02-12 16:29:25 --> Total execution time: 0.0376
+DEBUG - 2015-02-12 16:29:49 --> Config Class Initialized
+DEBUG - 2015-02-12 16:29:49 --> Hooks Class Initialized
+DEBUG - 2015-02-12 16:29:49 --> Utf8 Class Initialized
+DEBUG - 2015-02-12 16:29:49 --> UTF-8 Support Enabled
+DEBUG - 2015-02-12 16:29:49 --> URI Class Initialized
+DEBUG - 2015-02-12 16:29:49 --> Router Class Initialized
+DEBUG - 2015-02-12 16:29:49 --> No URI present. Default controller set.
+DEBUG - 2015-02-12 16:29:49 --> Output Class Initialized
+DEBUG - 2015-02-12 16:29:49 --> Security Class Initialized
+DEBUG - 2015-02-12 16:29:49 --> Input Class Initialized
+DEBUG - 2015-02-12 16:29:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-02-12 16:29:49 --> Language Class Initialized
+DEBUG - 2015-02-12 16:29:49 --> Loader Class Initialized
+DEBUG - 2015-02-12 16:29:49 --> Database Driver Class Initialized
+ERROR - 2015-02-12 16:29:49 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/moshe/code/web/aucs/system/database/drivers/mysql/mysql_driver.php 74
+DEBUG - 2015-02-12 16:29:49 --> Controller Class Initialized
+DEBUG - 2015-02-12 16:29:49 --> Model Class Initialized
+DEBUG - 2015-02-12 16:29:49 --> Model Class Initialized
+DEBUG - 2015-02-12 16:29:49 --> File loaded: application/views/global_header.php
+DEBUG - 2015-02-12 16:29:49 --> File loaded: application/views/ticket_packages.php
+DEBUG - 2015-02-12 16:29:49 --> Final output sent to browser
+DEBUG - 2015-02-12 16:29:49 --> Total execution time: 0.0390
+DEBUG - 2015-02-12 16:29:58 --> Config Class Initialized
+DEBUG - 2015-02-12 16:29:58 --> Hooks Class Initialized
+DEBUG - 2015-02-12 16:29:58 --> Utf8 Class Initialized
+DEBUG - 2015-02-12 16:29:58 --> UTF-8 Support Enabled
+DEBUG - 2015-02-12 16:29:58 --> URI Class Initialized
+DEBUG - 2015-02-12 16:29:58 --> Router Class Initialized
+DEBUG - 2015-02-12 16:29:58 --> No URI present. Default controller set.
+DEBUG - 2015-02-12 16:29:58 --> Output Class Initialized
+DEBUG - 2015-02-12 16:29:58 --> Security Class Initialized
+DEBUG - 2015-02-12 16:29:58 --> Input Class Initialized
+DEBUG - 2015-02-12 16:29:58 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-02-12 16:29:58 --> Language Class Initialized
+DEBUG - 2015-02-12 16:29:58 --> Loader Class Initialized
+DEBUG - 2015-02-12 16:29:58 --> Database Driver Class Initialized
+ERROR - 2015-02-12 16:29:58 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/moshe/code/web/aucs/system/database/drivers/mysql/mysql_driver.php 74
+DEBUG - 2015-02-12 16:29:58 --> Controller Class Initialized
+DEBUG - 2015-02-12 16:29:58 --> Model Class Initialized
+DEBUG - 2015-02-12 16:29:58 --> Model Class Initialized
+DEBUG - 2015-02-12 16:29:58 --> File loaded: application/views/global_header.php
+DEBUG - 2015-02-12 16:29:58 --> File loaded: application/views/ticket_packages.php
+DEBUG - 2015-02-12 16:29:58 --> Final output sent to browser
+DEBUG - 2015-02-12 16:29:58 --> Total execution time: 0.0381
+DEBUG - 2015-02-12 16:30:23 --> Config Class Initialized
+DEBUG - 2015-02-12 16:30:23 --> Hooks Class Initialized
+DEBUG - 2015-02-12 16:30:23 --> Utf8 Class Initialized
+DEBUG - 2015-02-12 16:30:23 --> UTF-8 Support Enabled
+DEBUG - 2015-02-12 16:30:23 --> URI Class Initialized
+DEBUG - 2015-02-12 16:30:23 --> Router Class Initialized
+DEBUG - 2015-02-12 16:30:23 --> No URI present. Default controller set.
+DEBUG - 2015-02-12 16:30:23 --> Output Class Initialized
+DEBUG - 2015-02-12 16:30:23 --> Security Class Initialized
+DEBUG - 2015-02-12 16:30:23 --> Input Class Initialized
+DEBUG - 2015-02-12 16:30:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-02-12 16:30:23 --> Language Class Initialized
+DEBUG - 2015-02-12 16:30:23 --> Loader Class Initialized
+DEBUG - 2015-02-12 16:30:23 --> Database Driver Class Initialized
+ERROR - 2015-02-12 16:30:23 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/moshe/code/web/aucs/system/database/drivers/mysql/mysql_driver.php 74
+DEBUG - 2015-02-12 16:30:23 --> Controller Class Initialized
+DEBUG - 2015-02-12 16:30:23 --> Model Class Initialized
+DEBUG - 2015-02-12 16:30:23 --> Model Class Initialized
+DEBUG - 2015-02-12 16:30:23 --> File loaded: application/views/global_header.php
+DEBUG - 2015-02-12 16:30:23 --> File loaded: application/views/ticket_packages.php
+DEBUG - 2015-02-12 16:30:23 --> Final output sent to browser
+DEBUG - 2015-02-12 16:30:23 --> Total execution time: 0.0411
+DEBUG - 2015-02-12 16:30:23 --> Config Class Initialized
+DEBUG - 2015-02-12 16:30:23 --> Hooks Class Initialized
+DEBUG - 2015-02-12 16:30:23 --> Utf8 Class Initialized
+DEBUG - 2015-02-12 16:30:23 --> UTF-8 Support Enabled
+DEBUG - 2015-02-12 16:30:23 --> URI Class Initialized
+DEBUG - 2015-02-12 16:30:23 --> Router Class Initialized
+DEBUG - 2015-02-12 16:30:23 --> No URI present. Default controller set.
+DEBUG - 2015-02-12 16:30:23 --> Output Class Initialized
+DEBUG - 2015-02-12 16:30:23 --> Security Class Initialized
+DEBUG - 2015-02-12 16:30:23 --> Input Class Initialized
+DEBUG - 2015-02-12 16:30:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-02-12 16:30:23 --> Language Class Initialized
+DEBUG - 2015-02-12 16:30:23 --> Loader Class Initialized
+DEBUG - 2015-02-12 16:30:23 --> Database Driver Class Initialized
+ERROR - 2015-02-12 16:30:23 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/moshe/code/web/aucs/system/database/drivers/mysql/mysql_driver.php 74
+DEBUG - 2015-02-12 16:30:23 --> Controller Class Initialized
+DEBUG - 2015-02-12 16:30:23 --> Model Class Initialized
+DEBUG - 2015-02-12 16:30:23 --> Model Class Initialized
+DEBUG - 2015-02-12 16:30:23 --> File loaded: application/views/global_header.php
+DEBUG - 2015-02-12 16:30:23 --> File loaded: application/views/ticket_packages.php
+DEBUG - 2015-02-12 16:30:23 --> Final output sent to browser
+DEBUG - 2015-02-12 16:30:23 --> Total execution time: 0.0361
+DEBUG - 2015-02-12 16:51:43 --> Config Class Initialized
+DEBUG - 2015-02-12 16:51:43 --> Hooks Class Initialized
+DEBUG - 2015-02-12 16:51:43 --> Utf8 Class Initialized
+DEBUG - 2015-02-12 16:51:43 --> UTF-8 Support Enabled
+DEBUG - 2015-02-12 16:51:43 --> URI Class Initialized
+DEBUG - 2015-02-12 16:51:43 --> Router Class Initialized
+DEBUG - 2015-02-12 16:51:43 --> No URI present. Default controller set.
+DEBUG - 2015-02-12 16:51:43 --> Output Class Initialized
+DEBUG - 2015-02-12 16:51:43 --> Security Class Initialized
+DEBUG - 2015-02-12 16:51:43 --> Input Class Initialized
+DEBUG - 2015-02-12 16:51:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-02-12 16:51:43 --> Language Class Initialized
+DEBUG - 2015-02-12 16:51:43 --> Loader Class Initialized
+DEBUG - 2015-02-12 16:51:43 --> Database Driver Class Initialized
+ERROR - 2015-02-12 16:51:43 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/moshe/code/web/aucs/system/database/drivers/mysql/mysql_driver.php 74
+DEBUG - 2015-02-12 16:51:43 --> Controller Class Initialized
+DEBUG - 2015-02-12 16:51:43 --> Model Class Initialized
+DEBUG - 2015-02-12 16:51:43 --> Model Class Initialized
+DEBUG - 2015-02-12 16:51:43 --> File loaded: application/views/global_header.php
+DEBUG - 2015-02-12 16:51:43 --> File loaded: application/views/ticket_packages.php
+DEBUG - 2015-02-12 16:51:43 --> Final output sent to browser
+DEBUG - 2015-02-12 16:51:43 --> Total execution time: 0.0276
+DEBUG - 2015-02-12 16:53:59 --> Config Class Initialized
+DEBUG - 2015-02-12 16:53:59 --> Hooks Class Initialized
+DEBUG - 2015-02-12 16:53:59 --> Utf8 Class Initialized
+DEBUG - 2015-02-12 16:53:59 --> UTF-8 Support Enabled
+DEBUG - 2015-02-12 16:53:59 --> URI Class Initialized
+DEBUG - 2015-02-12 16:53:59 --> Router Class Initialized
+DEBUG - 2015-02-12 16:53:59 --> No URI present. Default controller set.
+DEBUG - 2015-02-12 16:53:59 --> Output Class Initialized
+DEBUG - 2015-02-12 16:53:59 --> Security Class Initialized
+DEBUG - 2015-02-12 16:53:59 --> Input Class Initialized
+DEBUG - 2015-02-12 16:53:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-02-12 16:53:59 --> Language Class Initialized
+DEBUG - 2015-02-12 16:53:59 --> Loader Class Initialized
+DEBUG - 2015-02-12 16:53:59 --> Database Driver Class Initialized
+ERROR - 2015-02-12 16:53:59 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/moshe/code/web/aucs/system/database/drivers/mysql/mysql_driver.php 74
+DEBUG - 2015-02-12 16:53:59 --> Controller Class Initialized
+DEBUG - 2015-02-12 16:53:59 --> Model Class Initialized
+DEBUG - 2015-02-12 16:53:59 --> Model Class Initialized
+DEBUG - 2015-02-12 16:54:26 --> Config Class Initialized
+DEBUG - 2015-02-12 16:54:26 --> Hooks Class Initialized
+DEBUG - 2015-02-12 16:54:26 --> Utf8 Class Initialized
+DEBUG - 2015-02-12 16:54:26 --> UTF-8 Support Enabled
+DEBUG - 2015-02-12 16:54:26 --> URI Class Initialized
+DEBUG - 2015-02-12 16:54:26 --> Router Class Initialized
+DEBUG - 2015-02-12 16:54:26 --> No URI present. Default controller set.
+DEBUG - 2015-02-12 16:54:26 --> Output Class Initialized
+DEBUG - 2015-02-12 16:54:26 --> Security Class Initialized
+DEBUG - 2015-02-12 16:54:26 --> Input Class Initialized
+DEBUG - 2015-02-12 16:54:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-02-12 16:54:26 --> Language Class Initialized
+DEBUG - 2015-02-12 16:54:26 --> Loader Class Initialized
+DEBUG - 2015-02-12 16:54:26 --> Database Driver Class Initialized
+ERROR - 2015-02-12 16:54:26 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/moshe/code/web/aucs/system/database/drivers/mysql/mysql_driver.php 74
+DEBUG - 2015-02-12 16:54:26 --> Controller Class Initialized
+DEBUG - 2015-02-12 16:54:26 --> Model Class Initialized
+DEBUG - 2015-02-12 16:54:26 --> Model Class Initialized
+DEBUG - 2015-02-12 16:55:04 --> Config Class Initialized
+DEBUG - 2015-02-12 16:55:04 --> Hooks Class Initialized
+DEBUG - 2015-02-12 16:55:04 --> Utf8 Class Initialized
+DEBUG - 2015-02-12 16:55:04 --> UTF-8 Support Enabled
+DEBUG - 2015-02-12 16:55:04 --> URI Class Initialized
+DEBUG - 2015-02-12 16:55:04 --> Router Class Initialized
+DEBUG - 2015-02-12 16:55:04 --> No URI present. Default controller set.
+DEBUG - 2015-02-12 16:55:04 --> Output Class Initialized
+DEBUG - 2015-02-12 16:55:04 --> Security Class Initialized
+DEBUG - 2015-02-12 16:55:04 --> Input Class Initialized
+DEBUG - 2015-02-12 16:55:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-02-12 16:55:04 --> Language Class Initialized
+DEBUG - 2015-02-12 16:55:04 --> Loader Class Initialized
+DEBUG - 2015-02-12 16:55:04 --> Database Driver Class Initialized
+ERROR - 2015-02-12 16:55:04 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/moshe/code/web/aucs/system/database/drivers/mysql/mysql_driver.php 74
+DEBUG - 2015-02-12 16:55:04 --> Controller Class Initialized
+DEBUG - 2015-02-12 16:55:04 --> Model Class Initialized
+DEBUG - 2015-02-12 16:55:04 --> Model Class Initialized
+DEBUG - 2015-02-12 16:55:04 --> Config Class Initialized
+DEBUG - 2015-02-12 16:55:04 --> Hooks Class Initialized
+DEBUG - 2015-02-12 16:55:04 --> Utf8 Class Initialized
+DEBUG - 2015-02-12 16:55:04 --> UTF-8 Support Enabled
+DEBUG - 2015-02-12 16:55:04 --> URI Class Initialized
+DEBUG - 2015-02-12 16:55:04 --> Router Class Initialized
+DEBUG - 2015-02-12 16:55:04 --> No URI present. Default controller set.
+DEBUG - 2015-02-12 16:55:04 --> Output Class Initialized
+DEBUG - 2015-02-12 16:55:04 --> Security Class Initialized
+DEBUG - 2015-02-12 16:55:04 --> Input Class Initialized
+DEBUG - 2015-02-12 16:55:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-02-12 16:55:04 --> Language Class Initialized
+DEBUG - 2015-02-12 16:55:04 --> Loader Class Initialized
+DEBUG - 2015-02-12 16:55:04 --> Database Driver Class Initialized
+ERROR - 2015-02-12 16:55:04 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/moshe/code/web/aucs/system/database/drivers/mysql/mysql_driver.php 74
+DEBUG - 2015-02-12 16:55:04 --> Controller Class Initialized
+DEBUG - 2015-02-12 16:55:04 --> Model Class Initialized
+DEBUG - 2015-02-12 16:55:04 --> Model Class Initialized
+DEBUG - 2015-02-12 16:56:21 --> Config Class Initialized
+DEBUG - 2015-02-12 16:56:21 --> Hooks Class Initialized
+DEBUG - 2015-02-12 16:56:21 --> Utf8 Class Initialized
+DEBUG - 2015-02-12 16:56:21 --> UTF-8 Support Enabled
+DEBUG - 2015-02-12 16:56:21 --> URI Class Initialized
+DEBUG - 2015-02-12 16:56:21 --> Router Class Initialized
+DEBUG - 2015-02-12 16:56:21 --> No URI present. Default controller set.
+DEBUG - 2015-02-12 16:56:21 --> Output Class Initialized
+DEBUG - 2015-02-12 16:56:21 --> Security Class Initialized
+DEBUG - 2015-02-12 16:56:21 --> Input Class Initialized
+DEBUG - 2015-02-12 16:56:21 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-02-12 16:56:21 --> Language Class Initialized
+DEBUG - 2015-02-12 16:56:21 --> Loader Class Initialized
+DEBUG - 2015-02-12 16:56:21 --> Database Driver Class Initialized
+ERROR - 2015-02-12 16:56:21 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/moshe/code/web/aucs/system/database/drivers/mysql/mysql_driver.php 74
+DEBUG - 2015-02-12 16:56:21 --> Controller Class Initialized
+DEBUG - 2015-02-12 16:56:21 --> Model Class Initialized
+DEBUG - 2015-02-12 16:56:21 --> Model Class Initialized
+DEBUG - 2015-02-12 16:56:47 --> Config Class Initialized
+DEBUG - 2015-02-12 16:56:47 --> Hooks Class Initialized
+DEBUG - 2015-02-12 16:56:47 --> Utf8 Class Initialized
+DEBUG - 2015-02-12 16:56:47 --> UTF-8 Support Enabled
+DEBUG - 2015-02-12 16:56:47 --> URI Class Initialized
+DEBUG - 2015-02-12 16:56:47 --> Router Class Initialized
+DEBUG - 2015-02-12 16:56:47 --> No URI present. Default controller set.
+DEBUG - 2015-02-12 16:56:47 --> Output Class Initialized
+DEBUG - 2015-02-12 16:56:47 --> Security Class Initialized
+DEBUG - 2015-02-12 16:56:47 --> Input Class Initialized
+DEBUG - 2015-02-12 16:56:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-02-12 16:56:47 --> Language Class Initialized
+DEBUG - 2015-02-12 16:56:47 --> Loader Class Initialized
+DEBUG - 2015-02-12 16:56:47 --> Database Driver Class Initialized
+ERROR - 2015-02-12 16:56:47 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/moshe/code/web/aucs/system/database/drivers/mysql/mysql_driver.php 74
+DEBUG - 2015-02-12 16:56:47 --> Controller Class Initialized
+DEBUG - 2015-02-12 16:56:47 --> Model Class Initialized
+DEBUG - 2015-02-12 16:56:47 --> Model Class Initialized
+DEBUG - 2015-02-12 16:56:47 --> File loaded: application/views/global_header.php
+DEBUG - 2015-02-12 16:56:47 --> File loaded: application/views/ticket_packages.php
+DEBUG - 2015-02-12 16:56:47 --> Final output sent to browser
+DEBUG - 2015-02-12 16:56:47 --> Total execution time: 0.0417
+DEBUG - 2015-02-12 16:56:52 --> Config Class Initialized
+DEBUG - 2015-02-12 16:56:52 --> Hooks Class Initialized
+DEBUG - 2015-02-12 16:56:52 --> Utf8 Class Initialized
+DEBUG - 2015-02-12 16:56:52 --> UTF-8 Support Enabled
+DEBUG - 2015-02-12 16:56:52 --> URI Class Initialized
+DEBUG - 2015-02-12 16:56:52 --> Router Class Initialized
+DEBUG - 2015-02-12 16:56:52 --> No URI present. Default controller set.
+DEBUG - 2015-02-12 16:56:52 --> Output Class Initialized
+DEBUG - 2015-02-12 16:56:52 --> Security Class Initialized
+DEBUG - 2015-02-12 16:56:52 --> Input Class Initialized
+DEBUG - 2015-02-12 16:56:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-02-12 16:56:52 --> Language Class Initialized
+DEBUG - 2015-02-12 16:56:52 --> Loader Class Initialized
+DEBUG - 2015-02-12 16:56:52 --> Database Driver Class Initialized
+ERROR - 2015-02-12 16:56:52 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/moshe/code/web/aucs/system/database/drivers/mysql/mysql_driver.php 74
+DEBUG - 2015-02-12 16:56:52 --> Controller Class Initialized
+DEBUG - 2015-02-12 16:56:52 --> Model Class Initialized
+DEBUG - 2015-02-12 16:56:52 --> Model Class Initialized
+DEBUG - 2015-02-12 16:56:52 --> File loaded: application/views/global_header.php
+DEBUG - 2015-02-12 16:56:52 --> File loaded: application/views/ticket_packages.php
+DEBUG - 2015-02-12 16:56:52 --> Final output sent to browser
+DEBUG - 2015-02-12 16:56:52 --> Total execution time: 0.0400
+DEBUG - 2015-02-12 16:57:01 --> Config Class Initialized
+DEBUG - 2015-02-12 16:57:01 --> Hooks Class Initialized
+DEBUG - 2015-02-12 16:57:01 --> Utf8 Class Initialized
+DEBUG - 2015-02-12 16:57:01 --> UTF-8 Support Enabled
+DEBUG - 2015-02-12 16:57:01 --> URI Class Initialized
+DEBUG - 2015-02-12 16:57:01 --> Router Class Initialized
+DEBUG - 2015-02-12 16:57:01 --> No URI present. Default controller set.
+DEBUG - 2015-02-12 16:57:01 --> Output Class Initialized
+DEBUG - 2015-02-12 16:57:01 --> Security Class Initialized
+DEBUG - 2015-02-12 16:57:01 --> Input Class Initialized
+DEBUG - 2015-02-12 16:57:01 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-02-12 16:57:01 --> Language Class Initialized
+DEBUG - 2015-02-12 16:57:01 --> Loader Class Initialized
+DEBUG - 2015-02-12 16:57:01 --> Database Driver Class Initialized
+ERROR - 2015-02-12 16:57:01 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/moshe/code/web/aucs/system/database/drivers/mysql/mysql_driver.php 74
+DEBUG - 2015-02-12 16:57:01 --> Controller Class Initialized
+DEBUG - 2015-02-12 16:57:01 --> Model Class Initialized
+DEBUG - 2015-02-12 16:57:01 --> Model Class Initialized
+DEBUG - 2015-02-12 16:57:01 --> File loaded: application/views/global_header.php
+DEBUG - 2015-02-12 16:57:01 --> File loaded: application/views/ticket_packages.php
+DEBUG - 2015-02-12 16:57:01 --> Final output sent to browser
+DEBUG - 2015-02-12 16:57:01 --> Total execution time: 0.0338
+DEBUG - 2015-02-12 17:37:48 --> Config Class Initialized
+DEBUG - 2015-02-12 17:37:48 --> Hooks Class Initialized
+DEBUG - 2015-02-12 17:37:48 --> Utf8 Class Initialized
+DEBUG - 2015-02-12 17:37:48 --> UTF-8 Support Enabled
+DEBUG - 2015-02-12 17:37:48 --> URI Class Initialized
+DEBUG - 2015-02-12 17:37:48 --> Router Class Initialized
+DEBUG - 2015-02-12 17:37:48 --> No URI present. Default controller set.
+DEBUG - 2015-02-12 17:37:48 --> Output Class Initialized
+DEBUG - 2015-02-12 17:37:48 --> Security Class Initialized
+DEBUG - 2015-02-12 17:37:48 --> Input Class Initialized
+DEBUG - 2015-02-12 17:37:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-02-12 17:37:48 --> Language Class Initialized
+DEBUG - 2015-02-12 17:37:48 --> Loader Class Initialized
+DEBUG - 2015-02-12 17:37:48 --> Database Driver Class Initialized
+ERROR - 2015-02-12 17:37:48 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/moshe/code/web/test_run/system/database/drivers/mysql/mysql_driver.php 74
+DEBUG - 2015-02-12 17:37:48 --> Controller Class Initialized
+DEBUG - 2015-02-12 17:37:48 --> Model Class Initialized
+DEBUG - 2015-02-12 17:37:48 --> Model Class Initialized
+DEBUG - 2015-02-12 17:37:48 --> File loaded: application/views/global_header.php
+DEBUG - 2015-02-12 17:37:48 --> File loaded: application/views/ticket_packages.php
+DEBUG - 2015-02-12 17:37:48 --> Final output sent to browser
+DEBUG - 2015-02-12 17:37:48 --> Total execution time: 0.0539
