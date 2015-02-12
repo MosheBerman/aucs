@@ -4,19 +4,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <div id="menu">
     <ul>
         <li>
-            <a href="./">Home</a>
+            <a href="<?php echo site_url('welcome');?>">Home</a>
         </li>
         <li>
-            <a href="./catalog">Catalog</a>
+            <a href="<?php echo site_url('welcome/catalog');?>">Catalog</a>
         </li>
         <li>
-            <a href="./tickets">Tickets</a>
+            <a href="<?php echo site_url('welcome/tickets');?>">Tickets</a>
         </li>
         <li>
-            <a href="./log_in">Log In</a>
+            <a href="<?php echo site_url('welcome/log-in');?>">Log In</a>
         </li>
         <li>
-            <a href="./about">About</a>
+            <a href="<?php echo site_url('welcome/About');?>">About</a>
         </li>
     </ul>
 </div>
