@@ -1,13 +1,10 @@
-<h1>Welcome to CodeIgniter!</h1>
+<h1>JLIC Shushan Auction</h1>
 
 <div id="body">
-	<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
+	<p>February 22, 2015 at 7:00 p.m. - 9:30 p.m.</p>
 
-	<p>If you would like to edit this page you'll find it located at:</p>
-	<code>application/views/welcome_message.php</code>
-
-	<p>The corresponding controller for this page is found at:</p>
-	<code>application/controllers/Welcome.php</code>
-
-	<p>If you are exploring CodeIgniter for the very first time, you should start by reading the <a href="user_guide/">User Guide</a>.</p>
+	<p>The Ocean Avenue Jewish Center
+		2600 Ocean Avenue
+		Brooklyn, NY 11229
+	</p>
 </div>
