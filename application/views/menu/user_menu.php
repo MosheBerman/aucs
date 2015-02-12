@@ -10,10 +10,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <a href="./catalog">Catalog</a>
         </li>
         <li>
-            <a href="./tickets">Tickets</a>
+            <a href="./tickets">Order Tickets</a>
         </li>
         <li>
-            <a href="./log_in">Log In</a>
+            <a href="./prizes">Choose Prizes</a>
+        </li>
+        <li>
+            <a href="./account">Account</a>
         </li>
         <li>
             <a href="./about">About</a>
