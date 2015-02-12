@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Welcome to CodeIgniter</title>
+    <title>JLIC Shushan Auction</title>
 
     <style type="text/css">
 
@@ -13,10 +13,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         ::-webkit-selection { background-color: #E13300; color: white; }
 
         body {
-            background-color: #fff;
             margin: 40px;
             font: 13px/20px normal Helvetica, Arial, sans-serif;
             color: #4F5155;
+/*            background: url(*/<?php //echo base_url();?>/*application/assets/img/background.png) no-repeat center center fixed;*/
+/*            -webkit-background-size: contain;*/
+/*            -moz-background-size: contain;*/
+/*            -o-background-size: contain;*/
+/*            background-size: contain;*/
+            background-color: #000000;
         }
 
         a {
@@ -26,9 +31,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         }
 
         h1 {
-            color: #444;
+            /*color: #444;*/
             background-color: transparent;
-            border-bottom: 1px solid #D0D0D0;
+            border-bottom: 1px solid #999999;
             font-size: 19px;
             font-weight: normal;
             margin: 0 0 14px 0;
@@ -39,7 +44,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             font-family: Consolas, Monaco, Courier New, Courier, monospace;
             font-size: 12px;
             background-color: #f9f9f9;
-            border: 1px solid #D0D0D0;
+            border: 1px solid #999999;
             color: #002166;
             display: block;
             margin: 14px 0 14px 0;
@@ -53,7 +58,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         p.footer {
             text-align: right;
             font-size: 11px;
-            border-top: 1px solid #D0D0D0;
+            border-top: 1px solid #999999;
             line-height: 32px;
             padding: 0 10px 0 10px;
             margin: 20px 0 0 0;
@@ -61,8 +66,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         #container {
             margin: 10px;
-            border: 1px solid #D0D0D0;
-            box-shadow: 0 0 8px #D0D0D0;
+            border: 1px solid #999999;
+            background: #583F13;
+            color: #fff;
+            border-radius: 15px;
+            overflow:hidden;
         }
 
         #menu {

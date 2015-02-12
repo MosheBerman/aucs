@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3f95d4c-82db-4155-9f89-fa3ab730bbff" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/assets/.htaccess" afterPath="$PROJECT_DIR$/application/assets/.htaccess" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/global_header.php" afterPath="$PROJECT_DIR$/application/views/global_header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -32,8 +31,8 @@
       <file leaf-file-name="global_header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/global_header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.55727553" vertical-offset="510" max-vertical-offset="1875">
-              <caret line="58" column="30" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.8591331" vertical-offset="510" max-vertical-offset="1875">
+              <caret line="71" column="32" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -405,7 +404,13 @@
       <option name="project" value="LOCAL" />
       <updated>1423773501948</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Enabled public access to the assets directory.">
+      <created>1423776972989</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1423776972989</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -484,7 +489,8 @@
     <MESSAGE value="Stubbed the users API." />
     <MESSAGE value="Added the auction info the landing page." />
     <MESSAGE value="Implemented the stub for the catalog API and added a route for the package endpoint." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented the stub for the catalog API and added a route for the package endpoint." />
+    <MESSAGE value="Enabled public access to the assets directory." />
+    <option name="LAST_COMMIT_MESSAGE" value="Enabled public access to the assets directory." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -702,8 +708,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/global_header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55727553" vertical-offset="510" max-vertical-offset="1875">
-          <caret line="58" column="30" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.8591331" vertical-offset="510" max-vertical-offset="1875">
+          <caret line="71" column="32" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
           <folding />
         </state>
       </provider>
