@@ -8,12 +8,12 @@ Routes:
 **USERS:**
 
 `````
-user/new 			// Show new sign up form
-user/edit/{user_id}	// Allow users to edit their profile. 
-					// Non-orgranizers are redirected to 
+users/new 			// Show new sign up form
+users/edit/{user_id}	// Allow users to edit their profile.
+					// Non-organizers are redirected to
 					// their own profiles.
-user/log-in			// Log user in
-user/log-out		// Log user out.
+users/log-in			// Log user in
+users/log-out		// Log user out.
 `````
 
 **CATALOG:**
@@ -26,19 +26,19 @@ catalog/package/{package_id}	//	Show the prize package for the given ID.
 **TICKET PACKAGES:**
 
 `````
-package/ticket/new					//	Add a new ticket package
-package/ticket/edit/{package_id}	//	Edit a given package's 
-package/ticket/remove/{package_id}	//	Remove the package
-package/ticket/all 					//	View a list of all ticket packages
+ticket_package/new					//	Add a new ticket package
+ticket_package/edit/{package_id}	//	Edit a given package's
+ticket_package/remove/{package_id}	//	Remove the package
+ticket_package/all 					//	View a list of all ticket packages
 `````
 
 **PRIZE PACKAGES:**
 
 `````
-package/prize/new					//	Add a new prize package
-package/prize/edit/{package_id}		//	Edit a given prize package
-package/prize/delete/{package_id}	//	Delete the given prize package
-package/prize/all 					//	Show a list of all of the prizes packages.
+prize_package/new					//	Add a new prize package
+prize_package/edit/{package_id}		//	Edit a given prize package
+prize_package/delete/{package_id}	//	Delete the given prize package
+prize_package/all 					//	Show a list of all of the prizes packages.
 `````
 
 **PRIZES:**
