@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: moshe
- * Date: 2/12/15
- * Time: 4:40 PM
- */
 
 class Address extends CI_Model {
 
@@ -16,7 +10,27 @@ class Address extends CI_Model {
     public $state = '';
     public $ZIP = '';
 
-    public function (){
+    function __construct()
+    {
+        parent::__construct();
+    }
+
+    public function create(){
         
+    }
+
+    public function read()
+    {
+
+    }
+
+    public function update()
+    {
+
+    }
+
+    public function delete()
+    {
+
     }
 }
