@@ -60,12 +60,12 @@ $active_group = 'local_test';
 $active_record = TRUE;
 
 $db['local_test']['hostname'] = 'localhost';
-$db['local_test']['username'] = 'aucs';
-$db['local_test']['password'] = '';
+$db['local_test']['username'] = 'root';
+$db['local_test']['password'] = 'root';
 $db['local_test']['database'] = 'aucs';
 $db['local_test']['dbdriver'] = 'mysql';
 $db['local_test']['dbprefix'] = '';
-$db['local_test']['pconnect'] = TRUE;
+$db['local_test']['pconnect'] = FALSE;
 $db['local_test']['db_debug'] = TRUE;
 $db['local_test']['cache_on'] = FALSE;
 $db['local_test']['cachedir'] = '';
@@ -74,6 +74,7 @@ $db['local_test']['dbcollat'] = 'utf8_general_ci';
 $db['local_test']['swap_pre'] = '';
 $db['local_test']['autoinit'] = TRUE;
 $db['local_test']['stricton'] = FALSE;
+$db['local_test']['port'] = 8889;
 
 
 /* End of file database.php */
