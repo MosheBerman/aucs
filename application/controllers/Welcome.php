@@ -33,11 +33,13 @@ class Welcome extends CI_Controller
 		$this->load->view('global_footer');
 	}
 
-	public function catalog(){
+	public function tickets(){
 		$this->load->view('global_header');
 		$this->load->view('menu/default_menu');
 
 		$this->load->view('global_footer');
 	}
+
+
 }
 

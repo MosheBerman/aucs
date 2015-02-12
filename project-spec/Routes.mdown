@@ -26,34 +26,34 @@ catalog/package/{package_id}	//	Show the prize package for the given ID.
 **TICKET PACKAGES:**
 
 `````
-ticket_package/new					//	Add a new ticket package
-ticket_package/edit/{package_id}	//	Edit a given package's
-ticket_package/remove/{package_id}	//	Remove the package
-ticket_package/all 					//	View a list of all ticket packages
+ticket_packages/new					//	Add a new ticket package
+ticket_packages/edit/{package_id}	//	Edit a given package's
+ticket_packages/remove/{package_id}	//	Remove the package
+ticket_packages/all 					//	View a list of all ticket packages
 `````
 
 **PRIZE PACKAGES:**
 
 `````
-prize_package/new					//	Add a new prize package
-prize_package/edit/{package_id}		//	Edit a given prize package
-prize_package/delete/{package_id}	//	Delete the given prize package
-prize_package/all 					//	Show a list of all of the prizes packages.
+prize_packages/new					//	Add a new prize package
+prize_packages/edit/{package_id}		//	Edit a given prize package
+prize_packages/delete/{package_id}	//	Delete the given prize package
+prize_packages/all 					//	Show a list of all of the prizes packages.
 `````
 
 **PRIZES:**
 
 `````
-prize/new					//	Create a new prize
-prize/edit/{prize_id}		//	Edit the prize with the given ID
-prize/delete/{prize_id}		//	Delete the prize with the given ID
-prize/all 					//	Show a list of all prizes.
+prizes/new					//	Create a new prize
+prizes/edit/{prize_id}		//	Edit the prize with the given ID
+prizes/delete/{prize_id}		//	Delete the prize with the given ID
+prizes/all 					//	Show a list of all prizes.
 `````
 
 **ORDERS:**
 
 `````
-order/new					//	Start the order workflow
+orders/new					//	Start the order workflow
 orders/view/all				//	Shows all of my orders if logged in. Organizers see all orders.
 orders/view/{order_id}		//	Show orders for order ID.
 `````
