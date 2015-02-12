@@ -8,19 +8,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
     <style type="text/css">
 
+        @font-face {
+            font-family: BlackChancery;
+            src: url('<?php //echo base_url();?>/aucs/application/assets/fonts/chancery.woff') format('woff'),
+                 url('<?php //echo base_url();?>/aucs/application/assets/fonts/chancery.ttf') format('truetype');
+        }
+
         ::selection { background-color: #E13300; color: white; }
         ::-moz-selection { background-color: #E13300; color: white; }
         ::-webkit-selection { background-color: #E13300; color: white; }
 
         body {
             margin: 40px;
-            font: 13px/20px normal Helvetica, Arial, sans-serif;
+            font: 13px/20px BlackChancery, sans-serif;
             color: #4F5155;
-/*            background: url(*/<?php //echo base_url();?>/*application/assets/img/background.png) no-repeat center center fixed;*/
-/*            -webkit-background-size: contain;*/
-/*            -moz-background-size: contain;*/
-/*            -o-background-size: contain;*/
-/*            background-size: contain;*/
+            /*            background: url(*/<?php //echo base_url();?>/*application/assets/img/background.png) no-repeat center center fixed;*/
+            /*            -webkit-background-size: contain;*/
+            /*            -moz-background-size: contain;*/
+            /*            -o-background-size: contain;*/
+            /*            background-size: contain;*/
             background-color: #000000;
         }
 
@@ -79,6 +85,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             background-color: #292929;
             color: #fff;
             clear: both;
+            font-size: 18pt;
         }
 
         #menu ul {
