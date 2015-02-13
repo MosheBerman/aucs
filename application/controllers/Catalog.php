@@ -28,9 +28,9 @@ class Catalog extends CI_Controller{
          * Generate the views.
          */
 
-        $this->load->view('global_header');
+        $this->load->view('global/header');
         $this->load->view('menu/default_menu');
-        $this->load->view('global_footer');
+        $this->load->view('global/footer');
 
         $this->prize_package->get_packages_and_prizes();
     }
