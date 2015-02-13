@@ -148,3 +148,14 @@ p.footer {
     font-family: BlackChancery, sans-serif;
     font-size: 16pt;
 }
+
+#form_wrapper form input[type="submit"] {
+    width: 139px;
+    background: #292929;
+    color: #cccccc;
+}
+
+#form_wrapper #sign_up_button {
+    margin: 5px 10px 5px 5px;
+    width: 290px;
+}
