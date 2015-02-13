@@ -1,6 +1,51 @@
-aucs
+Aucs
 ----
 
-Aucs is a [Chinese auction](http://en.wikipedia.org/wiki/Chinese_auction) website based on CodeIgniter.
+Aucs is a [Chinese auction](http://en.wikipedia.org/wiki/Chinese_auction) website based on CodeIgniter. 
 
-`More details coming soon.`
+Dependencies:
+---
+Aucs uses CodeIgniter 3.0 RC2, PHP 5.5, MySQL 5.5.3. 
+
+I used [MAMP (download link)](http://www.mamp.info/en/) Version 3.0.7.3 (3.0.7.3) to get this up and running locally.
+
+Download MAMPThen, I pointed MAMP at the folder containing this repo and started building. 
+
+Setting up the database:
+---
+There's [a sql file](./sql/aucs-database.sql) in the sql folder that contains all the necessary code to bootstrap the database. 
+
+High Level/User Facing Features:
+----
+- [ ] Users can register.
+- [√] Users can log in.
+- [ ] Users can pay for ticket packages. (Via Stripe.)
+- [ ] Users can choose which prize packages to put in for.
+
+- [ ] Organizers and users can log in.
+- [ ] Organizers can add prize packages.
+- [ ] Organizers can add prizes to packages.
+- [ ] Organizers can add ticket packages.
+
+Implementation Details:
+---
+- [ ] The menu needs to change depending on login state and permissions.
+- [ ] SSL protection.
+- [ ] Lots of prettying up. (The )
+
+
+What I've done so far:
+---
+I've stubbed all of the model classes, built the database, and started working on some of the views and controllers.
+
+About API Keys & Passwords:
+---
+So this is a semi-public repository, which means that I obviously shouldn't be throwing private keys in here. I'm using default passwords on my local database, and will be changing all of that before deployment.
+
+What's this for anyway?
+---
+In a word, charity. Happy to share details privately.
+
+License:
+---
+CodeIgniter is under MIT. 
