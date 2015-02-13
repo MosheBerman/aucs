@@ -52,8 +52,6 @@ class Users extends CI_Controller
         $sql = 'SELECT * from user where email_address = ? AND token_or_password = ?';
         $query = $this->db->query($sql, array($username, $password));
 
-
-
         // Run the query
         if($query->num_rows() > 0)
         {
@@ -87,8 +85,20 @@ class Users extends CI_Controller
     public function portal()
     {
         $this->load->view('global/header');
-        $this->load->view('menu/default_menu');
-        $this->load->view('forms/login');
+
+        if ($this->session->has_userdata('user')) {
+            /**
+             * TODO: Check permissions and show organizer options if appropriate.
+             */
+            $this->load->view('menu/user_menu');
+        }
+        else
+        {
+            $this->load->view('menu/default_menu');
+            $this->load->view('forms/login');
+        }
+
+
         $this->load->view('global/footer');
     }
 }

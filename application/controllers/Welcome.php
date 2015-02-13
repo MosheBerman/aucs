@@ -28,14 +28,36 @@ class Welcome extends CI_Controller
 	public function index()
 	{
 		$this->load->view('global/header');
-		$this->load->view('menu/default_menu');
+
+		if ($this->session->has_userdata('user')) {
+			/**
+			 * TODO: Check permissions and show organizer options if appropriate.
+			 */
+			$this->load->view('menu/user_menu');
+		}
+		else
+		{
+			$this->load->view('menu/default_menu');
+		}
+
+
 		$this->load->view('welcome_message');
 		$this->load->view('global/footer');
 	}
 
 	public function tickets(){
 		$this->load->view('global/header');
-		$this->load->view('menu/default_menu');
+
+		if ($this->session->has_userdata('user')) {
+			/**
+			 * TODO: Check permissions and show organizer options if appropriate.
+			 */
+			$this->load->view('menu/user_menu');
+		}
+		else
+		{
+			$this->load->view('menu/default_menu');
+		}
 
 		$this->load->view('global/footer');
 	}

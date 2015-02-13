@@ -29,7 +29,18 @@ class Catalog extends CI_Controller{
          */
 
         $this->load->view('global/header');
-        $this->load->view('menu/default_menu');
+
+        if ($this->session->has_userdata('user')) {
+            /**
+             * TODO: Check permissions and show organizer options if appropriate.
+             */
+            $this->load->view('menu/user_menu');
+        }
+        else
+        {
+            $this->load->view('menu/default_menu');
+        }
+
         $this->load->view('global/footer');
 
         $this->prize_package->get_packages_and_prizes();
