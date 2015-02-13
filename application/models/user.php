@@ -10,6 +10,7 @@ class User extends CI_Model{
     public $token_or_password = NULL;
     public $phone_number_id = NULL;
     public $address_id = NULL;
+    public $is_organizer = 0;
 
     function __construct()
     {
