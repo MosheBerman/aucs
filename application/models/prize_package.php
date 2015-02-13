@@ -11,4 +11,14 @@ class Prize_package extends CI_Model {
         parent::__construct();
     }
 
+    public function get_packages_and_prizes(){
+
+        $prize_packages= $this->db->get('PRIZE_PACKAGE')->result();
+//        $prizes = $this->db->get('PRIZE')->result();
+
+//        var_dump($prize_packages);
+
+        return $prize_packages;
+    }
+
 }
