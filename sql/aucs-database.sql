@@ -47,17 +47,10 @@ CREATE TABLE IF NOT EXISTS USER (
 	token_or_password varchar(255),
 	phone_number_id int,
 	address_id int,
+	is_organizer int(1) default 0,
 	PRIMARY KEY(user_id),
 	FOREIGN KEY(phone_number_id) REFERENCES PHONE(number_id),
 	FOREIGN KEY(address_id) REFERENCES ADDRESS(address_id)
-);
-
--- Organizers are special admin users.
-CREATE TABLE IF NOT EXISTS ORGANIZER (
-	organizer_id int NOT NULL AUTO_INCREMENT,
-	user_id int NOT NULL, 
-	PRIMARY KEY(organizer_id),
-	FOREIGN KEY(user_id) REFERENCES USER(user_id)
 );
 
 -- Sponsors supply prizes
