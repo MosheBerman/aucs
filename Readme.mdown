@@ -32,7 +32,8 @@ Implementation Details:
 
 **Menu:**
 
-- [ ] The menu needs to change depending on login state and permissions.
+- [√] The menu needs to change depending on login state and permissions.
+- [ ] The menu needs to change depending on permissions level.
 
 **General:**
 
