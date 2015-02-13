@@ -29,10 +29,16 @@ High Level/User Facing Features:
 
 Implementation Details:
 ---
+
+**Menu:**
+
 - [ ] The menu needs to change depending on login state and permissions.
+
+**General:**
+
 - [ ] SSL protection.
 - [ ] Lots of prettying up. The style is loosely based on [the print/pdf auction booklet. (link here)](./auction_booklet.pdf)
-
+- [ ] Implement the endpoints outlined in the [routes specification](project-spec/Routes.mdown), which I designed during the brainstorm.
 
 What I've done so far:
 ---
@@ -44,7 +50,7 @@ So this is a semi-public repository, which means that I obviously shouldn't be t
 
 What's this for anyway?
 ---
-In a word, charity. Happy to share details privately.
+In a word, charity. Happy to share details privately. 
 
 License:
 ---
