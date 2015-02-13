@@ -16,7 +16,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <a href="<?php echo site_url('users/portal');?>">Log In</a>
         </li>
         <li>
-            <a href="<?php echo site_url('welcome/About');?>">About</a>
+            <a href="<?php echo site_url('welcome/about');?>">About</a>
         </li>
     </ul>
 </div>
