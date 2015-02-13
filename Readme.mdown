@@ -41,6 +41,27 @@ Implementation Details:
 - [ ] Lots of prettying up. The style is loosely based on [the print/pdf auction booklet. (link here)](./auction_booklet.pdf)
 - [ ] Implement the endpoints outlined in the [routes specification](project-spec/Routes.mdown), which I designed during the brainstorm.
 
+**Login:**
+
+- [ ] Login needs to account for encryption. Whatever we choose needs to match the encryption scheme used for the sign ups.
+- [ ] Server and/or client side input validation.
+
+**Sign Ups:**
+
+- [ ] Collect email, password, phone number, address.
+- [ ] Validate all of this before creating a new record in the database.
+
+**Database:**
+
+- [ ] Remove Organizer table and add a field is_organizer to the User table.
+
+**Orders:**
+
+There are two stages to user orders:
+
+1. Choosing how many tickets to pay for.
+2. Choosing which prize packages those tickets go towards. 
+
 What I've done so far:
 ---
 I've stubbed all of the model classes, built the database, and started working on some of the views and controllers.
