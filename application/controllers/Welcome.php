@@ -62,6 +62,9 @@ class Welcome extends CI_Controller
 		$this->load->view('global/footer');
 	}
 
+	public function about(){
+		$this->index();
+	}
 
 }
 
