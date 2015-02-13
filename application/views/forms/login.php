@@ -1,18 +1,24 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?>
 <div id="form_wrapper">
 
-    <?php echo validation_errors(); ?>
+    <?php echo validation_errors();
 
-    <?php
+    $setLogInAction = 'document.getElementById("login_form").action = "'.base_url().'index.php/users/log_in";';
+    $setNewUserAction = 'document.getElementById("login_form").action = "'.base_url().'./index.php/users/new_user";';
 
-    echo form_open('users/log_in');
+    echo form_open('users/log_in', array('id' => 'login_form'));
 
-    echo form_label('Username:', 'username');
+    echo form_label('Email:', 'username');
     echo form_input('username');
 
     echo form_label('Password:', 'password', array('id'=>'password_label'));
     echo form_password('password');
 
-    echo form_submit('','Submit');
+    echo form_submit('create_button','Sign Up', "onclick='{$setNewUserAction}'");
+    echo form_submit('submit_button', 'Log In', "onclick={$setLogInAction}");
+
     echo form_close();
 
     ?>
