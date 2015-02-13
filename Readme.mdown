@@ -3,13 +3,15 @@ Aucs
 
 Aucs is a [Chinese auction](http://en.wikipedia.org/wiki/Chinese_auction) website based on CodeIgniter. 
 
-Dependencies:
+Tools & Dependencies:
 ---
 Aucs uses CodeIgniter 3.0 RC2, PHP 5.5, MySQL 5.5.3. 
 
 I used [MAMP (download link)](http://www.mamp.info/en/) Version 3.0.7.3 (3.0.7.3) to get this up and running locally.
 
 I downloaded MAMP and pointed it at the folder containing this repo. Then I started building. 
+
+There's a [phpStorm](https://www.jetbrains.com/phpstorm/) project in there too, so you can use that to edit this if you'd like.
 
 Setting up the database:
 ---
