@@ -3,7 +3,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Catalog extends CI_Controller{
 
-    function __construct() {
+    function __construct()
+    {
         parent::__construct();
 
         $this->load->helper('url');
@@ -19,14 +20,19 @@ class Catalog extends CI_Controller{
          * TODO: Load the data from the database.
          */
 
+        $this->load->model('prize_package');
+        $this->load->model('prize');
+
+
         /**
          * Generate the views.
          */
 
         $this->load->view('global_header');
         $this->load->view('menu/default_menu');
-
         $this->load->view('global_footer');
+
+        $this->prize_package->get_packages_and_prizes();
     }
     
     /**
