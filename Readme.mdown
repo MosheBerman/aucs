@@ -9,7 +9,7 @@ Aucs uses CodeIgniter 3.0 RC2, PHP 5.5, MySQL 5.5.3.
 
 I used [MAMP (download link)](http://www.mamp.info/en/) Version 3.0.7.3 (3.0.7.3) to get this up and running locally.
 
-Download MAMPThen, I pointed MAMP at the folder containing this repo and started building. 
+I downloaded MAMP and pointed it at the folder containing this repo. Then I started building. 
 
 Setting up the database:
 ---
@@ -31,7 +31,7 @@ Implementation Details:
 ---
 - [ ] The menu needs to change depending on login state and permissions.
 - [ ] SSL protection.
-- [ ] Lots of prettying up. (The )
+- [ ] Lots of prettying up. The style is loosely based on [the print/pdf auction booklet. (link here)](./auction_booklet.pdf)
 
 
 What I've done so far:
