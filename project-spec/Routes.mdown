@@ -12,8 +12,8 @@ users/new 			// Show new sign up form
 users/edit/{user_id}	// Allow users to edit their profile.
 					// Non-organizers are redirected to
 					// their own profiles.
-users/log-in			// Log user in
-users/log-out		// Log user out.
+users/log_in			// Log user in
+users/log_out		// Log user out.
 `````
 
 **CATALOG:**
