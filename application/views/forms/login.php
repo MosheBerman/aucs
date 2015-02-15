@@ -16,8 +16,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     echo form_label('Password:', 'password', array('id'=>'password_label'));
     echo form_password('password');
 
-    echo form_submit('create_button','Sign Up', "onclick='{$setNewUserAction}'");
     echo form_submit('submit_button', 'Log In', "onclick={$setLogInAction}");
+    echo form_submit('create_button','Sign Up', "onclick='{$setNewUserAction}'");
 
     echo form_close();
 
