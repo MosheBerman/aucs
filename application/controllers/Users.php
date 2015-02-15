@@ -29,8 +29,9 @@ class Users extends CI_Controller
 
         $user = $this->session->get_userdata('user');
 
-        if ($user && $user->is_organizer != 1)
-        {
+        $user = $user['user'];
+
+        if ($user && $user->is_organizer != 1) {
             redirect('/');
         }
         else
@@ -102,25 +103,27 @@ class Users extends CI_Controller
 
 
                 $this->load->view('global/footer');
-
             }
 
             else
             {
                 $this->load->view('global/header');
 
-                if ($this->session->has_userdata('user')) {
+                if ($user->is_organizer == '1') {
 
                     /**
                      * TODO: Check permissions and show organizer options if appropriate.
                      */
 
                     $this->load->view('menu/user_menu');
+
+
                 } else {
                     $this->load->view('menu/default_menu');
-                    $this->load->view('forms/new_user');
+
                 }
 
+                $this->load->view('forms/new_user');
                 $this->load->view('global/footer');
 
             }
