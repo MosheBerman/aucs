@@ -78,6 +78,7 @@ p.footer {
     color: #fff;
     clear: both;
     font-size: 18pt;
+    border-bottom: 1px solid #999999;
 }
 
 #menu ul {
@@ -129,14 +130,14 @@ p.footer {
 
 #form_wrapper form label {
     display: block;
-    width: 100px;
+    width: 280px;
     margin: 5px;
-    padding: 0 5px;
+    padding: 5px 5px 0px 0px;
     text-align: left;
     font-size: 18pt;
 }
 
-#form_wrapper form input {
+#form_wrapper form input, #form_wrapper form a {
     margin: 5px;
     padding: 10px 5px;
     border-radius: 5px;
@@ -147,15 +148,26 @@ p.footer {
     width: 280px;
     font-family: BlackChancery, sans-serif;
     font-size: 16pt;
+    text-decoration: none;
 }
 
-#form_wrapper form input[type="submit"] {
+#form_wrapper form input[type="submit"], #form_wrapper form a {
     width: 139px;
     background: #292929;
     color: #cccccc;
 }
 
+
 #form_wrapper #sign_up_button {
     margin: 5px 10px 5px 5px;
     width: 290px;
+}
+
+#form_wrapper form a#sign_up_form_button {
+    margin: 5px 10px 5px 5px;
+    width: 139px !important;
+}
+
+#form_wrapper p {
+    font-size: 18pt;
 }

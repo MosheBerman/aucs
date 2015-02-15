@@ -8,18 +8,29 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
     echo validation_errors();
 
-    echo form_open('users/log_in');
+    echo form_open('users/new_user');
 
-    echo form_label('Email:', 'username');
-    echo form_input('username');
+    ?>
 
-    echo form_label('Password:', 'password', array('id'=>'password_label'));
-    echo form_password('password');
+    <label for="first_name">First Name</label>
+    <input id="first_name" name="first_name" />
 
-    echo form_label('Confirm:', 'confirm_password', array('id'=>'confirm_label'));
-    echo form_password('confirm_password');
+    <label for="last_name">Last Name</label>
+    <input id="last_name" name="last_name" />
 
-    echo form_submit('sign_up_button','Sign Up', 'id="sign_up_button"');
+    <label for="username">Email</label>
+    <input id="username" name="username" />
+
+    <label for="password" id="password_label">Password</label>
+    <input type="password" name="password" value="" />
+
+    <label for="confirm_password" id="confirm_label">Confirm</label>
+    <input type="password" name="confirm_password" value="" />
+
+    <input type="submit" name="sign_up_button" value="Sign Up" id="sign_up_button" />
+
+    <?php
+
     echo form_close();
 
     ?>

@@ -11,7 +11,7 @@ I used [MAMP (download link)](http://www.mamp.info/en/) Version 3.0.7.3 (3.0.7.3
 
 I downloaded MAMP and pointed it at the folder containing this repo. Then I started building. 
 
-There's a [phpStorm](https://www.jetbrains.com/phpstorm/) project in there too, so you can use that to edit this if you'd like.
+I used [phpStorm](https://www.jetbrains.com/phpstorm/). There's the project in the repo too, so you can use that to edit this if you'd like.
 
 Setting up the database:
 ---
@@ -55,7 +55,7 @@ Implementation Details:
 
 **Database:**
 
-- [ ] Remove Organizer table and add a field is_organizer to the User table.
+- [√] Remove Organizer table and add a field is_organizer to the User table.
 
 **Orders:**
 

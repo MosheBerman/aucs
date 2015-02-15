@@ -16,4 +16,17 @@ class User extends CI_Model{
     {
         parent::__construct();
     }
+
+    public function create_user() {
+
+        $data = array(
+            'first_name' => $this->first_name,
+            'last_name' => $this->last_name,
+            'email_address' => $this->email_address,
+            'token_or_password' => $this->token_or_password
+    );
+
+        $this->db->insert('user', $data);
+    }
+
 }
