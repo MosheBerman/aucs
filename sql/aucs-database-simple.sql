@@ -15,42 +15,18 @@ CREATE DATABASE IF NOT EXISTS aucs;
 
 USE aucs;
 
--- Each record constructs a phone number.
-CREATE TABLE IF NOT EXISTS PHONE (
-	number_id int NOT NULL AUTO_INCREMENT,
-	country_code varchar(3),
-	area_code varchar(3),
-	digits varchar(10),	-- US Only
-	extension varchar(10),
-	PRIMARY KEY(number_id)
-);
-
--- Each record constructs an address.
-CREATE TABLE IF NOT EXISTS ADDRESS (
-	address_id int NOT NULL AUTO_INCREMENT,
-	street_number varchar(10),
-	street_name varchar(50),
-	apartment_or_suite varchar(10),
-	city varchar(50),
-	state varchar(2),
-	ZIP varchar(10),
-	PRIMARY KEY(address_id)
-);
-
 -- Users have names, emails, passwords, and references phones and addresses.
 CREATE TABLE IF NOT EXISTS USER (
-	user_id int NOT NULL AUTO_INCREMENT,
-	created timestamp default CURRENT_TIMESTAMP,
-	email_address varchar(255),
-	first_name varchar(255),
-	last_name varchar(255),
-	token_or_password varchar(255),
-	phone_number int,
-	address_id int,
-	is_organizer int(1) default 0,
-	PRIMARY KEY(user_id),
-	FOREIGN KEY(phone_number_id) REFERENCES PHONE(number_id),
-	FOREIGN KEY(address_id) REFERENCES ADDRESS(address_id)
+	user_id       INT NOT NULL AUTO_INCREMENT,
+	created       TIMESTAMP    DEFAULT CURRENT_TIMESTAMP,
+	email_address VARCHAR(255),
+	first_name    VARCHAR(255),
+	last_name     VARCHAR(255),
+	token_or_password VARCHAR(255),
+	phone_number  VARCHAR(10),
+	address	VARCHAR(255),
+	is_organizer  INT(1)       DEFAULT 0,
+	PRIMARY KEY (user_id)
 );
 
 -- Sponsors supply prizes
