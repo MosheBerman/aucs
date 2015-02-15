@@ -28,7 +28,16 @@ class User extends CI_Model{
             'token_or_password' => $this->token_or_password
     );
 
-        $this->db->insert('user', $data);
+
+        $query = $this->db->query('SELECT * FROM USER WHERE email_address = ?', array($this->email_address));
+
+        if ($query->num_rows() == 0) {
+            return $this->db->insert('user', $data);
+        }
+        else
+        {
+            return false;
+        }
     }
 
 }

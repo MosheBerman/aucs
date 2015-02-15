@@ -78,9 +78,13 @@ class Users extends CI_Controller
                 $this->user->phone = $phone;
                 $this->user->token_or_password =  password_hash($password, PASSWORD_BCRYPT);
 
-                $this->user->create_user();
+                $created = $this->user->create_user();
 
-                $message = 'User created. Please log in.';
+                $message = '<h2>User created. Please log in.</h2>';
+
+                if ($created == FALSE) {
+                    $message = '<h2>A user with that email already exists.</h2>';
+                }
 
                 $this->load->view('global/header');
 

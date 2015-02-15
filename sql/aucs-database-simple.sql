@@ -11,9 +11,9 @@
 -- ----------------
 
 -- Create a database
-CREATE DATABASE IF NOT EXISTS aucs;
+CREATE DATABASE IF NOT EXISTS `aucs-simple`;
 
-USE aucs;
+USE `aucs-simple`;
 
 -- Users have names, emails, passwords, and references phones and addresses.
 CREATE TABLE IF NOT EXISTS USER (
