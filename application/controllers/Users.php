@@ -117,20 +117,25 @@ class Users extends CI_Controller
 
         // Prep the query
         $this->db->where('email_address', $username);
-        $this->db->where('token_or_password', password_verify($password, PASSWORD_BCRYPT));
 
-        $sql = 'SELECT * from user where email_address = ? AND token_or_password = ?';
-        $query = $this->db->query($sql, array($username, $password));
+        $sql = 'SELECT * from user where email_address = ?';
+        $query = $this->db->query($sql, array($username));
 
         // Run the query
-        if($query->num_rows() > 0)
-        {
+        if($query->num_rows() > 0 ) {
             $result = $query->result();
             $user = $result[0];
 
-            $this->session->set_userdata('user', $user);
+            if (password_verify($password, $user->token_or_password)) {
 
-            redirect('/');
+
+                $this->session->set_userdata('user', $user);
+
+                redirect('/');
+            }
+            else {
+                redirect('users/portal');
+            }
         }
         else {
             redirect('users/portal');
