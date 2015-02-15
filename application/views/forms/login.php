@@ -5,6 +5,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
     <?php echo validation_errors();
 
+    if(isset($message)) {
+        echo $message;
+    }
+
     echo form_open('users/log_in', array('id' => 'login_form'));
 
     echo form_label('Email', 'username');

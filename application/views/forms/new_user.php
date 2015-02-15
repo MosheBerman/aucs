@@ -18,6 +18,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <label for="last_name">Last Name</label>
     <input id="last_name" name="last_name" />
 
+    <label for="phone">Phone Number</label>
+    <input id="phone" name="phone" />
+
     <label for="username">Email</label>
     <input id="username" name="username" />
 

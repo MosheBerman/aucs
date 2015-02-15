@@ -42,6 +42,13 @@ class Users extends CI_Controller
             $this->form_validation->set_rules('first_name', "first name", 'required');
             $this->form_validation->set_rules('last_name', "last name", 'required');
 
+            $this->form_validation->set_rules('phone', 'phone number', 'required|numeric|exact_length[10]',
+                    array(
+                        'numeric' => 'You may only enter digits for your %s.',
+                        'exact_length' => 'Your %s should be exactly 10 digits long.'
+                    )
+                );
+
             $this->form_validation->set_rules(
                 'username', 'your email address',
                 'required|valid_email',
@@ -54,12 +61,13 @@ class Users extends CI_Controller
             $this->form_validation->set_rules('password', 'Password', 'required');
             $this->form_validation->set_rules('confirm_password', 'password confirmation', 'required|matches[password]');
 
-
             if ($this->form_validation->run() == TRUE)
             {
 
                 $first_name = $this->security->xss_clean($this->input->post('first_name'));
-                $last_name = $this->security->xss_clean($this->input->post('last-name'));
+                $last_name = $this->security->xss_clean($this->input->post('last_name'));
+
+                $phone = $this->security->xss_clean($this->input->post('phone'));
 
                 $username = $this->security->xss_clean($this->input->post('username'));
                 $password = $this->security->xss_clean($this->input->post('password'));
@@ -67,12 +75,32 @@ class Users extends CI_Controller
                 $this->user->first_name = $first_name;
                 $this->user->last_name = $last_name;
                 $this->user->email_address = $username;
+                $this->user->phone = $phone;
                 $this->user->token_or_password =  password_hash($password, PASSWORD_BCRYPT);
 
                 $this->user->create_user();
 
-                redirect('/');
+                $message = 'User created. Please log in.';
+
+                $this->load->view('global/header');
+
+                if ($this->session->has_userdata('user')) {
+                    /**
+                     * TODO: Check permissions and show organizer options if appropriate.
+                     */
+                    $this->load->view('menu/user_menu');
+                }
+                else
+                {
+                    $this->load->view('menu/default_menu');
+                    $this->load->view('forms/login', array('message' => $message));
+                }
+
+
+                $this->load->view('global/footer');
+
             }
+
             else
             {
                 $this->load->view('global/header');

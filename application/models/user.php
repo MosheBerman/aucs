@@ -11,6 +11,7 @@ class User extends CI_Model{
     public $phone_number_id = NULL;
     public $address_id = NULL;
     public $is_organizer = 0;
+    public $phone = NULL;
 
     function __construct()
     {
@@ -23,6 +24,7 @@ class User extends CI_Model{
             'first_name' => $this->first_name,
             'last_name' => $this->last_name,
             'email_address' => $this->email_address,
+            'phone_number' => $this->phone,
             'token_or_password' => $this->token_or_password
     );
 
