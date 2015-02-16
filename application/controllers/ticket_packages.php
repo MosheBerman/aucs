@@ -1,11 +1,12 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: moshe
- * Date: 2/12/15
- * Time: 7:27 PM
- */
+defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Ticket_packages {
+
+class Ticket_packages extends CI_Controller{{
+
+    function __construct()
+    {
+        parent::__construct();
+    }
 
 }

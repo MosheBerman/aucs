@@ -27,9 +27,13 @@ class Users extends CI_Controller
          * Only organizers can create users while logged in.
          */
 
-        $user = $this->session->get_userdata('user');
+        $user = $this->session->userdata();
 
-        $user = $user['user'];
+        if (array_key_exists('user', $user)) {
+            $user = $this->session->get_userdata('user');
+
+            $user = $user['user'];
+        }
 
         if ($user && $user->is_organizer != 1) {
             redirect('/');
@@ -44,11 +48,11 @@ class Users extends CI_Controller
             $this->form_validation->set_rules('last_name', "last name", 'required');
 
             $this->form_validation->set_rules('phone', 'phone number', 'required|numeric|exact_length[10]',
-                    array(
-                        'numeric' => 'You may only enter digits for your %s.',
-                        'exact_length' => 'Your %s should be exactly 10 digits long.'
-                    )
-                );
+                array(
+                    'numeric' => 'You may only enter digits for your %s.',
+                    'exact_length' => 'Your %s should be exactly 10 digits long.'
+                )
+            );
 
             $this->form_validation->set_rules(
                 'username', 'your email address',
@@ -109,7 +113,7 @@ class Users extends CI_Controller
             {
                 $this->load->view('global/header');
 
-                if ($user->is_organizer == '1') {
+                if ($user != NULL && $user  ->is_organizer == '1') {
 
                     /**
                      * TODO: Check permissions and show organizer options if appropriate.
