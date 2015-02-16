@@ -40,5 +40,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
     </select>
 
+    <?php
+
+    echo form_submit('submit_button', 'Add Prize');
+
+    ?>
+
     </form>
 </div>
