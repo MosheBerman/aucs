@@ -19,12 +19,12 @@ There's [a sql file](./sql/aucs-database.sql) in the sql folder that contains al
 
 High Level/User Facing Features:
 ----
-- [ ] Users can register.
+- [√] Users can register.
 - [√] Users can log in.
 - [ ] Users can pay for ticket packages. (Via Stripe.)
 - [ ] Users can choose which prize packages to put in for.
 
-- [ ] Organizers and users can log in.
+- [√] Organizers and users can log in.
 - [ ] Organizers can add prize packages.
 - [ ] Organizers can add prizes to packages.
 - [ ] Organizers can add ticket packages.
