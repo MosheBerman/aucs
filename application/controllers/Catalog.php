@@ -43,7 +43,7 @@ class Catalog extends CI_Controller{
 
         $this->load->view('global/footer');
 
-        $this->prize_package->get_packages_and_prizes();
+//        $this->prize_package->get_packages_and_prizes();
     }
     
     /**
