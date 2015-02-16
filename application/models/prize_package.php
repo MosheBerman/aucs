@@ -4,21 +4,23 @@ class Prize_package extends CI_Model {
 
     public $prize_package_id = NULL;
     public $package_name = '';
-    public $package_prize_in_dollars = '';
+    public $package_price_in_dollars = '';
 
     function __construct()
     {
         parent::__construct();
     }
 
-    public function get_packages_and_prizes(){
+    public function create_package() {
 
-        $prize_packages= $this->db->get('PRIZE_PACKAGE')->result();
-//        $prizes = $this->db->get('PRIZE')->result();
+        $data = array(
+            'package_name' => $this->package_name,
+            'package_price_in_dollars ' => $this->package_price_in_dollars
+            );
+    }
 
-//        var_dump($prize_packages);
-
-        return $prize_packages;
+    public function get_packages() {
+        return $this->db->get('PRIZE_PACKAGES');
     }
 
 }

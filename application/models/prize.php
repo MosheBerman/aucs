@@ -19,11 +19,17 @@ class Prize extends CI_Model {
             'prize_name' => $this->prize_name,
             'prize_description' => $this->prize_description,
             'sponsor_name' => $this->sponsor_name,
-            'package_id' =>
+            'package_id' => $this->package_id
         );
 
         $this->db->insert('prize', $data);
 
+    }
+
+    public function get_prizes_in_package($package) {
+
+        $this->db->where('package_id', $package);
+        return $this->db->get('PRIZE');
     }
 
 }
