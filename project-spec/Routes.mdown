@@ -29,14 +29,14 @@ catalog/package/{package_id}	//	Show the prize package for the given ID.
 ticket_packages/new					//	Add a new ticket package
 ticket_packages/edit/{package_id}	//	Edit a given package's
 ticket_packages/remove/{package_id}	//	Remove the package
-ticket_packages/all 					//	View a list of all ticket packages
+ticket_packages/all 				//	View a list of all ticket packages
 `````
 
 **PRIZE PACKAGES:**
 
 `````
 prize_packages/new					//	Add a new prize package
-prize_packages/edit/{package_id}		//	Edit a given prize package
+prize_packages/edit/{package_id}	//	Edit a given prize package
 prize_packages/delete/{package_id}	//	Delete the given prize package
 prize_packages/all 					//	Show a list of all of the prizes packages.
 `````
