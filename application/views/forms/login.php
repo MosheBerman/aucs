@@ -17,11 +17,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     echo form_label('Password', 'password', array('id'=>'password_label'));
     echo form_password('password');
 
-    echo form_submit('submit_button', 'Log In');
+    echo form_submit('submit_button', 'Log In', 'class="half_width"');
 
     ?>
 
-    <a href="<?php echo base_url() ?>index.php/users/new_user" id="sign_up_form_button">Sign Up</a>
+    <a href="<?php echo base_url('index.php/users/new_user') ?>" id="sign_up_form_button" class="half_width">Sign Up</a>
 
     <?php
 
