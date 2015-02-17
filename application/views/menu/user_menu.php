@@ -10,7 +10,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <a href="<?php echo site_url('catalog/all');?>">Catalog</a>
         </li>
         <li>
-            <a href="<?php echo site_url('welcome/tickets');?>">Tickets</a>
+            <a href="<?php echo site_url('ticket_packages/all');?>">Tickets</a>
         </li>
         <li>
             <a href="<?php echo site_url('users/log_out');?>">Log Out</a>
