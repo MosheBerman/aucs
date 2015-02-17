@@ -11,16 +11,27 @@ class Prize_package extends CI_Model {
         parent::__construct();
     }
 
-    public function create_package() {
+    public function create() {
 
         $data = array(
             'package_name' => $this->package_name,
             'package_price_in_dollars ' => $this->package_price_in_dollars
             );
+
+        return $this->db->insert('prize_package', $data);
     }
 
-    public function get_packages() {
-        return $this->db->get('PRIZE_PACKAGES');
+    public function read() {
+        return $this->db->get('prize_package');
     }
 
+    public function update($id)
+    {
+
+    }
+
+    public function delete($id)
+    {
+        return $this->db->delete('prize_package', array('prize_package_id' => $id));
+    }
 }
