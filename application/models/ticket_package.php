@@ -9,8 +9,6 @@ class Ticket_package extends CI_Model {
     function __construct()
     {
         parent::__construct();
-
-        $this->load->helper('database');
     }
 
     public function create()
