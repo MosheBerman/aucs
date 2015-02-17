@@ -8,19 +8,30 @@ class Prize_packages extends CI_Controller{
         parent::__construct();
 
         $this->load->helper('url');
-        $this->load->helper('database');
+
+        $this->load->library('form_validation');
+        $this->load->library('user_agent');
+
     }
 
     public function create()
     {
 
-        /**
-         * TODO: Validate & create if the post data exists.
-         */
+    }
 
-        /**
-         * Else, show form and prompt for new entry.
-         */
-    } 
+    public function all()
+    {
+
+    }
+
+    public function update()
+    {
+
+    }
+
+    public function delete()
+    {
+
+    }
 
 }
