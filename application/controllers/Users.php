@@ -9,12 +9,12 @@ class Users extends CI_Controller
 
         $this->load->helper('url');
         $this->load->helper('form');
-        $this->load->model('user');
         $this->load->helper('security');
 
         $this->load->library('form_validation');
         $this->load->library('user_agent');
 
+        $this->load->model('user');
     }
 
     /**
