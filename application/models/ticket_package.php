@@ -28,7 +28,7 @@ class Ticket_package extends CI_Model {
 
     public function delete($id)
     {
-        return $this->db->delete('ticket_package', array('ticket_package_id'=>$id));
+        return $this->db->delete('ticket_package', array('ticket_package_id' => $id));
     }
 }
 
