@@ -9,17 +9,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         echo $message;
     }
 
-    echo form_open('prizes/add');
+    echo form_open('ticket_packages/create');
 
     ?>
 
-    <label for="package_cost">Cost</label>
+    <label for="package_cost">Cost <p class="field_description">How much are supporters going to pay for this ticket package?</p></label>
     <input id="package_cost" name="package_cost" />
-    <p>How much are supporters going to pay for this ticket package?</p>
 
-    <label for="awarded_value">Value</label>
+
+    <label for="awarded_value">Value <p class="field_description">How much money in tickets is the package worth?</p></label>
     <input id="awarded_value" name="awarded_value" />
-    <p>How much money in tickets is the package worth?</p>
+
 
     <?php
 
