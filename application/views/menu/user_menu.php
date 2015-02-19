@@ -7,7 +7,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <a href="<?php echo site_url('welcome');?>">Home</a>
         </li>
         <li>
-            <a href="<?php echo site_url('catalog/all');?>">Catalog</a>
+            <a href="<?php echo site_url('prize_packages/all');?>">Catalog</a>
         </li>
         <li>
             <a href="<?php echo site_url('ticket_packages/all');?>">Tickets</a>
