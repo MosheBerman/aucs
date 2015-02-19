@@ -96,15 +96,4 @@ class Prize_packages extends Aucs_controller {
         $this->load->view('pages/prize_package_view', $data);
         $this->load->view('global/footer');
     }
-
-    public function update()
-    {
-
-    }
-
-    public function delete()
-    {
-
-    }
-
 }

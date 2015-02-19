@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3f95d4c-82db-4155-9f89-fa3ab730bbff" name="Default" comment="Fix t">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/Aucs_controller.php" afterPath="$PROJECT_DIR$/application/controllers/Aucs_controller.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/Prize_packages.php" afterPath="$PROJECT_DIR$/application/controllers/Prize_packages.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/prize_package.php" afterPath="$PROJECT_DIR$/application/models/prize_package.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/pages/prize_package_view.php" afterPath="$PROJECT_DIR$/application/views/pages/prize_package_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="aucs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,8 +52,8 @@
           <file leaf-file-name="Prize_packages.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/application/controllers/Prize_packages.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5108359" vertical-offset="300" max-vertical-offset="1725">
-                  <caret line="42" column="49" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
+                <state vertical-scroll-proportion="0.8374613" vertical-offset="914" max-vertical-offset="1560">
+                  <caret line="97" column="5" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
                   <folding />
                 </state>
               </provider>
@@ -122,7 +118,7 @@
           <file leaf-file-name="ticket_packages.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/application/controllers/ticket_packages.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="2.0356038" vertical-offset="95" max-vertical-offset="1755">
+                <state vertical-scroll-proportion="0.46594426" vertical-offset="1109" max-vertical-offset="1755">
                   <caret line="94" column="15" selection-start-line="94" selection-start-column="15" selection-end-line="94" selection-end-column="15" />
                   <folding />
                 </state>
@@ -1320,7 +1316,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/ticket_packages.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.0356038" vertical-offset="95" max-vertical-offset="1755">
+        <state vertical-scroll-proportion="0.46594426" vertical-offset="1109" max-vertical-offset="1755">
           <caret line="94" column="15" selection-start-line="94" selection-start-column="15" selection-end-line="94" selection-end-column="15" />
           <folding />
         </state>
@@ -1328,8 +1324,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/Prize_packages.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5108359" vertical-offset="300" max-vertical-offset="1725">
-          <caret line="42" column="49" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.8374613" vertical-offset="914" max-vertical-offset="1560">
+          <caret line="97" column="5" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
           <folding />
         </state>
       </provider>
