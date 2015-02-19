@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Ticket_packages extends CI_Controller{
+class Ticket_packages extends Aucs_controller {
 
     function __construct()
     {
@@ -23,16 +23,7 @@ class Ticket_packages extends CI_Controller{
          * Ensure that the user is logged in and allowed to edit prize packages.
          */
 
-
-        $user = $this->session->userdata();
-
-        if (array_key_exists('user', $user)) {
-            $user = $this->session->get_userdata('user');
-
-            $user = $user['user'];
-        }
-
-        if ($user && $user->is_organizer != 1) {
+        if (!$this->is_logged_in_as_organizer()) {
             redirect('/');
         }
         else
