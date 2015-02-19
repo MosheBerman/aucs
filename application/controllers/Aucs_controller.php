@@ -29,4 +29,17 @@ class Aucs_controller extends CI_Controller {
 
         return $user && $user->is_organizer == '1';
     }
+
+
+    public function current_user() {
+        $user = $this->session->userdata();
+
+        if (array_key_exists('user', $user)) {
+            $user = $this->session->get_userdata('user');
+
+            $user = $user['user'];
+        }
+
+        return $user;
+    }
 }

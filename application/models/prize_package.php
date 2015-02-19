@@ -23,7 +23,7 @@ class Prize_package extends CI_Model {
     }
 
     public function read() {
-        return $this->db->get('prize_package');
+        return $this->db->get('prize_package')->result();
     }
 
 //    public function update($id)

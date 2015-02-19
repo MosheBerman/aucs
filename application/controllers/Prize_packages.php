@@ -38,9 +38,9 @@ class Prize_packages extends Aucs_controller {
 
             if ($this->form_validation->run() == TRUE) {
 
-                $package_name = $this->input->xss_clean($this->input->post('package_name'));
-                $package_price_in_dollars = $this->input->xss_clean($this->input->post('package_price'));
-                $package_number = $this->input->xss_clean($this->input->post('package_number'));
+                $package_name = $this->security->xss_clean($this->input->post('package_name'));
+                $package_price_in_dollars = $this->security->xss_clean($this->input->post('package_price'));
+                $package_number = $this->security->xss_clean($this->input->post('package_number'));
 
                 $this->prize_package->package_name = $package_name;
                 $this->prize_package->package_price_in_dollars = $package_price_in_dollars;
@@ -74,6 +74,27 @@ class Prize_packages extends Aucs_controller {
     public function all()
     {
 
+        $data['edit'] = $this->is_logged_in_as_organizer();
+        $data['user'] = $this->current_user();
+        $data['packages'] = $this->prize_package->read();
+
+        $this->load->view('global/header');
+
+        if ($this->session->has_userdata('user')) {
+            /**
+             * TODO: Check permissions and show organizer options if appropriate.
+             */
+            $this->load->view('menu/user_menu');
+        }
+        else
+        {
+            $this->load->view('menu/default_menu');
+        }
+
+
+
+        $this->load->view('pages/prize_package_view', $data);
+        $this->load->view('global/footer');
     }
 
     public function update()
