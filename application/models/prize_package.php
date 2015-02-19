@@ -3,8 +3,9 @@
 class Prize_package extends CI_Model {
 
     public $prize_package_id = NULL;
-    public $package_name = '';
-    public $package_price_in_dollars = '';
+    public $package_name = NULL;
+    public $package_price_in_dollars = NULL;
+    public $package_number = NULL;
 
     function __construct()
     {
@@ -25,10 +26,10 @@ class Prize_package extends CI_Model {
         return $this->db->get('prize_package');
     }
 
-    public function update($id)
-    {
-
-    }
+//    public function update($id)
+//    {
+//
+//    }
 
     public function delete($id)
     {

@@ -1,7 +1,9 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Prizes extends CI_Controller{
+include('Aucs_controller.php');
+
+class Prizes extends Aucs_controller{
 
     function __construct()
     {

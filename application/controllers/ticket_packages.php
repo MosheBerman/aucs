@@ -1,6 +1,8 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+include('Aucs_controller.php');
+
 class Ticket_packages extends Aucs_controller {
 
     function __construct()
