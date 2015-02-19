@@ -67,6 +67,7 @@ CREATE TABLE IF NOT EXISTS PRIZE_PACKAGE (
 	prize_package_id int NOT NULL AUTO_INCREMENT,
 	package_name varchar(200),
 	package_price_in_dollars varchar(3),
+  package_number int(3),
 	PRIMARY KEY(prize_package_id)
 );
 
